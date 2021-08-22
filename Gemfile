@@ -31,4 +31,4 @@ gem  "jekyll-theme-chirpy"
 
 gem "webrick", "~> 1.7"
 
-gem "htmlproofer"
+gem "html-proofer"
