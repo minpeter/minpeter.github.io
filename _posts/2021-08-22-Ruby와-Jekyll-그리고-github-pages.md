@@ -15,7 +15,7 @@ github-pages.. 벌써 3~4번은 시도했었지만 jekyll를 이용해서 
 
 마침 학교에서 선배님이 개발블로그를 만들어 두면 좋을 것 같다고 조언해 주셨고 다시 github-pages에 도전하기로 했다!! 🙌
 
-가장 먼저 해야될건 테마를 골라야되는데 처음에는 [no-style-please](https://github.com/riggraz/no-style-please)라는 테마를 사용하고 싶었는데 이 테마가 생각보다 설정하기 어려워서 [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)라는 테마를 이용하게 됬다. (✨도 많은 편이고 🍴도 1.8k나 됬다!)
+가장 먼저 해야될건 테마를 골라야되는데 처음에는 [no-style-please](https://github.com/riggraz/no-style-please)라는 테마를 사용하고 싶었는데 이 테마가 생각보다 설정하기 어려워서 [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)라는 테마를 이용하게 됬다. (star도 많은 편이고 fork도 1.8k나 됬다!)
 
 테마 골랐고 다음으로는.. 걍 테마에 README 파일 읽으면서 만들면된다 :)
 
