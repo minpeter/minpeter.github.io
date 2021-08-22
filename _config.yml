@@ -49,7 +49,7 @@ google_site_verification: RNVL00kQq_OXnyYh9S4hgL35tPhS5wdFNf_qNiXhxS8
 # --------------------------
 
 google_analytics:
-  id: ''              # fill in your Google Analytics ID
+  id: 'G-6FQKWLZK1S'              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -76,7 +76,7 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
+avatar: /assets/profile_1.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
