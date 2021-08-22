@@ -1,1 +1,30 @@
+
+  
+title: minpeter DEV blog
+author: minpeter
+email: kali2005611@gmail.com
+url: https://minpeter.github.io
+baseurl: ""
+description: >
+한세사이버보안고등학교 해킹보안과.
+Today I Learned, dev log, Etc... 
+🙌 오늘도 열심히!!
+permalink: /:slug.html
+
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+
 remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
