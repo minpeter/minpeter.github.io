@@ -34,9 +34,11 @@ zsh + oh-my-zsh 조합을 사용하는 나로써는 최악이였다.
 $ \curl -sSL https://get.rvm.io | zsh
 ```
 명령어를 통해 설치했는데 모르고 사용하다보니 문제가 생겼다..
+
 터미널 실행시 rvm이 자동실행이 안되고 매번 수동으로 시작을 해줘야되는...
 
-![nonono](https://media4.giphy.com/media/U4vFzaRxLzlA3g06kY/giphy.gif?cid=790b7611d455a39cd78b0e3ca5187a38cf346a1a5de2c705&rid=giphy.gif&ct=g)
+
+![NO!](https://media3.giphy.com/media/vyTnNTrs3wqQ0UIvwE/giphy.gif?cid=ecf05e47qgqr6zdsl2zynks0belw720amodwznyniqp35g96&rid=giphy.gif&ct=g)
 
 
 ## jekyll, bundler 설치하기 & 프로젝트 만들기
@@ -54,6 +56,7 @@ $ cd username.github.io #username.github.io 폴더로 이동
 $ bundle exec jekyll serve #jekyll 서버 실행
 ```
 이후 브라우저로 127.0.0.1:4000에 접속하면 블로그가 보일 것이다.
+
 
 ![YES!](https://media4.giphy.com/media/hVYVYZZBgF50k/giphy.gif?cid=ecf05e4738ztomnvxgw2j8irmgsioeow3sru309nq8c8ql7w&rid=giphy.gif&ct=g)
 
