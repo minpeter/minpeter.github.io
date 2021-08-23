@@ -35,6 +35,7 @@ $ \curl -sSL https://get.rvm.io | zsh
 ```
 명령어를 통해 설치했는데 모르고 사용하다보니 문제가 생겼다..
 터미널 실행시 rvm이 자동실행이 안되고 매번 수동으로 시작을 해줘야되는...
+
 ![nonono](https://media4.giphy.com/media/U4vFzaRxLzlA3g06kY/giphy.gif?cid=790b7611d455a39cd78b0e3ca5187a38cf346a1a5de2c705&rid=giphy.gif&ct=g)
 
 
