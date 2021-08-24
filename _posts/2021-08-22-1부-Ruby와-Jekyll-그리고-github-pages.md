@@ -1,7 +1,7 @@
 ---
-title: 💎 Ruby와 Jekyll 그리고 github-pages
+title: 💎1부 Ruby와 Jekyll 그리고 github-pages
 author: minpeter
-date: 2021-08-23 15:51:38 +0900
+date: 2021-08-22 22:21:00 +0900
 categories: [Blogging]
 tags: [ruby, jekyll, github, github-pages]
 pin: no
