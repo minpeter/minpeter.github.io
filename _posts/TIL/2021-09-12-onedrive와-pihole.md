@@ -1,5 +1,5 @@
 ---
-title: ☁️ onedrive와 pihole
+title: ☁️ onedrive와 pihole (TIL)
 author: minpeter
 date: 2021-09-12 17:25:00 +0900
 categories: [TIL]
