@@ -246,7 +246,33 @@ docker images
 </details><br>
 
 ## 서비스 생성
+swarm에서 단일 컨테이너를 배포하기 위해선 service라는 단위를 사용하는데 다음 명령어로 실행할수 있다.  
+```
+docker service create --name [서비스이름] -p [외부포트]:[내부포트] [도커이미지]:[태그]
+```
+이를 테스트 해보기 위해 [hashcorp/http-echo](https://hub.docker.com/r/hashicorp/http-echo/)이미지를 사용해보자  
+```
+docker exec -it manager \
+docker service create --name test_swarm -p 5678:5678 hashcorp/http-echo:latest
+```
+다음 명령어로 서비스가 생성된걸 확인할수 있다.  
+```
+docker exec -it manager \
+docker service ls
+```
+생성된것이 확인되었으면 다음 명령어로 스케일을 조정해보자  
+```
+docker exec -it manager \
+docker service scale test_swarm=6
+```
+잠깐기달리면 swarm이 알아서 컨테이너를 생성해 각 노드에 분활배치한다.  
+그리고 service ls 명령어로 다시 확인해보면 REPLICAS가 1개에서 9개로 늘어난것을 확인할수 있다.  
 
+생성한 서비스를 삭제하기 위해선 다음 명령어를 입력하자  
+```
+docker exec -it manager \
+docker serivce rm test_swarm
+```
 
 ## 참고자료
 

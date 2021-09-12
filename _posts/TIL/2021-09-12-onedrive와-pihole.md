@@ -23,7 +23,7 @@ BETA채널로 내려가기 위해선 전부 재설치를 해야했다.
 혹시 윈도우설치가 잘못됬나싶어서 재설치도 해보고, 다시 DEV로 올라가서 설정도 해봤다.  
 전부 실패였다.  
 뭐가 문제였을까?  
-생각보다 ㅈㄴ 간단했다.  
+생각보다 간단했다.  
 [about onedrive](https://support.microsoft.com/ko-kr/office/onedrive%eb%a6%b4%eb%a6%ac%ec%8a%a4-%ec%a0%95%eb%b3%b4-%ec%b0%b8%ec%a1%b0-845dcf18-f921-435e-bf28-4e24b95e5fc0?ui=ko-kr&rs=ko-kr&ad=kr)
 에 들어가보면 아래와 같이 나와있다.  
 ```
