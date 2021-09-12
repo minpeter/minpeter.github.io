@@ -2,7 +2,7 @@
 title: ☁️ onedrive와 pihole
 author: minpeter
 date: 2021-09-12 17:25:00 +0900
-categories: [server]
+categories: [ETC]
 tags: [onedrive, pihole, homelab, dns, server, ETC]
 pin: no
 ---
