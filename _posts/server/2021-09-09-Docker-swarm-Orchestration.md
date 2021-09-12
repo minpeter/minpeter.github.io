@@ -172,7 +172,7 @@ services:
         command: "--insecure-registry registry:5000"
 ```
 </div>
-</details></br>
+</details><br>
 
 다음 아래의 명령어를 입력해주자  
 ```
@@ -243,7 +243,7 @@ $ docker exec -it worker01 \
 docker images
 ```
 </div>
-</details></br>
+</details><br>
 
 ## 서비스 생성
 
