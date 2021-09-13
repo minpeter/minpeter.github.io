@@ -26,7 +26,7 @@ services:
         deploy:
             mode: global
             placement:
-            constraints: [node.role == manager]
+                constraints: [node.role == manager]
 ```
 컨테이너를 이용해 실습하고 있다면 docker cp명령어로 파일을 옮겨주자  
 ```
