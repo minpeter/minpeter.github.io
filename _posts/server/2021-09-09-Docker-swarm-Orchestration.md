@@ -276,8 +276,6 @@ docker serivce rm test_swarm
 
 ## 참고자료
 
-[스웜(swarm)을 이용한 도커 컨테이너 배포_1](https://cornswrold.tistory.com/512?category=930033)  
-[스웜(swarm)을 이용한 도커 컨테이너 배포_2](https://cornswrold.tistory.com/515?category=930033)  
-[스웜(swarm)을 이용한 도커 컨테이너 배포_3 (스웜 클러스터 외부에서 서비스 사용하기)](https://cornswrold.tistory.com/516?category=930033)  
+[스웜(swarm)을 이용한 도커 컨테이너 배포_1](https://cornswrold.tistory.com/512?category=930033)   
 [Docker Swarm을 이용한 쉽고 빠른 분산 서버 관리](https://subicura.com/2017/02/25/container-orchestration-with-docker-swarm.html)  
 [docker docs](https://docs.docker.com/engine/swarm)  
