@@ -18,15 +18,15 @@ version: "3"
 
 services:
     app:
-    image: dockersamples/visualizer
-    ports:
-        - "9000:8080"
-    volumes:
-        - /var/run/docker.sock:/var/run/docker.sock
-    deploy:
-        mode: global
-        placement:
-        constraints: [node.role == manager]
+        image: dockersamples/visualizer
+        ports:
+            - "9000:8080"
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+        deploy:
+            mode: global
+            placement:
+            constraints: [node.role == manager]
 ```
 컨테이너를 이용해 실습하고 있다면 docker cp명령어로 파일을 옮겨주자  
 ```
@@ -35,7 +35,7 @@ $ docker cp visualizer.yaml manager:/visualizer.yaml
 서비스를 실행해주자
 ```
 $ docker exec -it manager \
-docker stack deploy -c /visualizer.yml visualizer
+docker stack deploy -c /visualizer.yaml visualizer
 ```
 localhost:9000에 접속해보면 아름다운 창이 뜰것이다.  
 
