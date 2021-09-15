@@ -21,7 +21,7 @@ docker network create --driver=overlay --attachable test
 ```
 test라는 이름의 네트워크를 생성해주었다.  
 이제 stack-compose 파일을 생성해주자  
-**docker-compose.yaml**
+**docker-stack.yaml**
 ```yaml
 version: '3'
 services:
@@ -41,12 +41,10 @@ services:
             replicas: 3
             placement:
                 constraints: [node.role != manager]
-        environment:
-            SERVICE_PORTS: 80
         depends_on:
             - flask-echo
         ports:
-            - "80:80"
+            - "8080:80"
         networks:
             - test
 
@@ -56,14 +54,15 @@ networks:
 ```
 이제 파일을 manager 컨테이너로 보내야되는데 docker cp 명령어를 사용하자  
 ```
-$ docker cp docker-compose.yaml manager:/docker-compose.yaml
+$ docker cp docker-stack.yaml manager:/docker-stack.yaml
 ```
 이제 stack을 배포할 차례이다.  
 ```
 $ docker exec -it manager \
-docker stack deploy -c /docker-compose.yaml echo
+docker stack deploy -c /docker-stack.yaml echo
 ```
-이제 배포된 서비스를 확인해보자  
+이제 `hello, flask!`를 출력하는 간단한 페이지가 8080포트에 올라갔다.  
+배포된 서비스를 확인해보자  
 ```
 $ docker exec -it manager \
 docker stack services echo
