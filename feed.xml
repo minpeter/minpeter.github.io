@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://minpeter.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://minpeter.github.io/" rel="alternate" type="text/html" hreflang="ko-KR" /><updated>2021-12-23T00:04:29+09:00</updated><id>https://minpeter.github.io/feed.xml</id><title type="html">minpeter</title><subtitle>한세사이보안고등학교 해킹보안과 docker, kubernetes, CI/CD에 대해 공부중...</subtitle><entry><title type="html">🦢 logo-ls, bat</title><link href="https://minpeter.github.io/posts/logo-ls-bat/" rel="alternate" type="text/html" title="🦢 logo-ls, bat" /><published>2021-12-20T13:28:00+09:00</published><updated>2021-12-22T23:14:03+09:00</updated><id>https://minpeter.github.io/posts/logo-ls-bat</id><content type="html" xml:base="https://minpeter.github.io/posts/logo-ls-bat/">&lt;p&gt;터미널을 쓰다보면 알록달록해서 예쁜게 마음에 드는거 같으면서도 글자만 나와서 심심하다.
+몇몇 명령어는 조금 바뀌었으면 하는 부분도 있고..&lt;br /&gt;
+이번 글에서는 이런 부분을 약간 개선해보자.&lt;/p&gt;
+
+&lt;h2 id=&quot;logo-ls-설치&quot;&gt;logo-ls 설치&lt;/h2&gt;
+
+&lt;p&gt;logo-ls는 go로 만든 오픈소스 프로그램이다.&lt;br /&gt;
+&lt;a href=&quot;https://github.com/Yash-Handa/logo-ls&quot;&gt;github&lt;/a&gt;에 올라와있다.&lt;br /&gt;
+심심한 ls 명령어와 다르게 각각 파일 옆에 아이콘을 출력해주어 약간은 예쁘게 보기도록 도와준다.&lt;br /&gt;
+&lt;img src=&quot;https://github.com/Yash-Handa/logo-ls/blob/master/.github/images/ls-a.png?raw=true&quot; alt=&quot;이미지&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;설치하는 방법은 간단하다.&lt;br /&gt;
+릴리즈 페이지에서 제공하는 패키지 파일을 다운받아 설치해주면 끝이다.&lt;br /&gt;
+하지만 상황에 따라 추가로 해야되는 것이 있는데 폰트 설치이다.&lt;br /&gt;
+폰트가 설치되어있지 않으면 네모에 물음표가 떠있는 아이콘이 표시된다.
+폰트는 &lt;a href=&quot;https://www.nerdfonts.com/font-downloads&quot;&gt;이 사이트&lt;/a&gt;중 하나를 골라 설치해주자&lt;br /&gt;
+(fira code 추천)&lt;br /&gt;
+이후 logo-ls를 입력하면 잘 작동할 것이다.&lt;br /&gt;
+만약 마음에 든다면 alias를 이용해 ls 입력시 자동으로 작동하게 만들어보자&lt;/p&gt;
+
+&lt;h2 id=&quot;bat-설치&quot;&gt;bat 설치&lt;/h2&gt;
+
+&lt;p&gt;bat는 cat을 대신해 제작된 프로그램이다.&lt;br /&gt;
+cat과 거희 동일하게 파일안에 내용을 출력해준다.&lt;br /&gt;
+단 약간의 차이가 존재하는데 문법 강조를 지원한다.&lt;br /&gt;
+보통 cat을 이용해 설정파일을 잠시 확인하는 용도를 사용하는데 문법 강조를 지원하니 정말 편하다.&lt;br /&gt;
+리눅스 배포판별로 약간식 차이는 존재하지만 거희 모든 배포판의 패키지 관리자를 지원한다.&lt;br /&gt;
+보통 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apt install bat&lt;/code&gt; 형식&lt;br /&gt;
+&lt;a href=&quot;https://github.com/sharkdp/bat&quot;&gt;깃허브&lt;/a&gt;에서 확인할 수 있다.
+이후 설치가 완료되면 cat과 동일하게 사용하면된다.&lt;br /&gt;
+물론 cat 대신 alias로 등록해도 된다.&lt;br /&gt;
+(심볼릭링크를 만들라는 이야기도 있는데 일단은 패스)
+&lt;img src=&quot;https://camo.githubusercontent.com/c436c206f2c86605ab2f9fb632dd485afc05fccbf14af472770b0c59d876c9cc/68747470733a2f2f692e696d6775722e636f6d2f326c53573452452e706e67&quot; alt=&quot;이미지&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;마무리&quot;&gt;마무리&lt;/h2&gt;
+
+&lt;p&gt;terminal를 사용하면 할수록 예뻐지는거 같다.&lt;br /&gt;
+다음에는 어떤 편의성 툴을 알게될지 궁금하고, 좋은 정보가 있다면 포스팅하도록 하겠다.&lt;/p&gt;</content><author><name>minpeter</name></author><category term="linux" /><category term="terminal" /><category term="logo-ls" /><category term="bat" /><category term="linux" /><summary type="html">터미널을 쓰다보면 알록달록해서 예쁜게 마음에 드는거 같으면서도 글자만 나와서 심심하다. 몇몇 명령어는 조금 바뀌었으면 하는 부분도 있고.. 이번 글에서는 이런 부분을 약간 개선해보자.</summary></entry><entry><title type="html">🐌 wsl docker sandbox and VMware (TIL)</title><link href="https://minpeter.github.io/posts/wsl-docker-sandbox-and-VMware/" rel="alternate" type="text/html" title="🐌 wsl docker sandbox and VMware (TIL)" /><published>2021-10-18T14:25:00+09:00</published><updated>2021-10-18T14:25:00+09:00</updated><id>https://minpeter.github.io/posts/wsl-docker-sandbox-and-VMware</id><content type="html" xml:base="https://minpeter.github.io/posts/wsl-docker-sandbox-and-VMware/">&lt;p&gt;난 아직 맥북을 사지 못했다.&lt;br /&gt;
+&lt;del&gt;사실 맥북을 사도 별로 달라질꺼같진않는데&lt;/del&gt;&lt;br /&gt;
+아무튼 터미널을 사용해야되기 때문에 wsl의 힘을 빌려서 windows에서의 생활을 이어나가는 중이다.&lt;br /&gt;
+그런데.. 그런데.. 막 gnome 41, fedora 35 beta 이런 뉴스가 들려올때면 리눅스 데스크톱 환경의 발전을 체험해 보고 싶어진다.&lt;br /&gt;
+wsl이 좋은 프로그램인건 문명하지만 내가 원하는 데스크톱 환경 체험은 완전히 다른 목적으로 개발된 프로그램이기에 걍 가상머신을 돌리는 편이 낫다.&lt;/p&gt;
+
+&lt;h2 id=&quot;-wsl와-vmware의-공존&quot;&gt;🔏 wsl와 VMware의 공존&lt;/h2&gt;
+&lt;p&gt;내가 노트북에 VMware을 설치하길 꺼린 이유는 hyper-v 이슈 때문이다.&lt;br /&gt;
+wsl을 사용하게되면 hypervisor가 자동으로 활성화되어 하드웨어단의 가상화 자원에 hypervisor가 올라가고 그 위에서 wsl 배포판들이 돌아간다.&lt;br /&gt;
+원도우를 일회용으로 사용할수 있게 해주는 windows sandbox도 hypervisor 위에서 돌아가고 docker-desktop도 hypervisor 위에서 돌아간다.&lt;/p&gt;
+
+&lt;p&gt;근데!! 기존 안드로이드 에뮬레이터(블루스택)이나 가상머신 프로그램(VMware, VirtualBox)는 하드웨어 단의 자원 바로 위에서 돌아가야 되는데 이미 해당 자원을 hypervisor가 차지하고 있어 실행시 hyper-v을 종료해 달라는 오류 뜨는 이슈가 있었다.&lt;/p&gt;
+
+&lt;h2 id=&quot;-문제의-해결&quot;&gt;🔓 문제의 해결&lt;/h2&gt;
+&lt;p&gt;VMware의 엄청난 소식이 들려왔다.&lt;br /&gt;
+hyper-v가 활성화된 경우 자동으로 인식하고 WHP 위에서 돌아가도록 하는 모드가 추가되었다는 것이다.&lt;br /&gt;
+이제 wsl을 이용하고 있어도 VMware을 동시에 구동할 수 있다.&lt;br /&gt;
+그래서 VMware을 이용해 fedora을 구동했고, 만족했다. :)&lt;/p&gt;</content><author><name>minpeter</name></author><category term="TIL" /><category term="vmware" /><category term="virtualization" /><category term="TIL" /><summary type="html">난 아직 맥북을 사지 못했다. 사실 맥북을 사도 별로 달라질꺼같진않는데 아무튼 터미널을 사용해야되기 때문에 wsl의 힘을 빌려서 windows에서의 생활을 이어나가는 중이다. 그런데.. 그런데.. 막 gnome 41, fedora 35 beta 이런 뉴스가 들려올때면 리눅스 데스크톱 환경의 발전을 체험해 보고 싶어진다. wsl이 좋은 프로그램인건 문명하지만 내가 원하는 데스크톱 환경 체험은 완전히 다른 목적으로 개발된 프로그램이기에 걍 가상머신을 돌리는 편이 낫다.</summary></entry><entry><title type="html">🦎 nvm을 이용한 node버전관리 (TIL)</title><link href="https://minpeter.github.io/posts/nvm%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-node%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/" rel="alternate" type="text/html" title="🦎 nvm을 이용한 node버전관리 (TIL)" /><published>2021-10-01T11:24:00+09:00</published><updated>2021-11-06T15:43:56+09:00</updated><id>https://minpeter.github.io/posts/nvm%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-node%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC</id><content type="html" xml:base="https://minpeter.github.io/posts/nvm%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-node%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/">&lt;p&gt;난 솔직히 자가진단이 싫다.&lt;br /&gt;
+최근 아이폰 7으로 바꾸기 전까지는 앱이 열리는데까지 너무 오래걸렸고,&lt;br /&gt;
+짜피 의식의 흐름대로 아니오를 3번 입력하는 동작은 정말 비효율적으로 느껴진다.&lt;br /&gt;
+하지만 교육청에선 필요하다고 생각하는 모양이다.&lt;br /&gt;
+뭐 과거의 나는 교육청에서 뭐라고 생각하든 신경쓰지않았고,&lt;br /&gt;
+python으로 자가진단 서버에 리퀘를 보내 자가진단을 자동으로 수행해주는 프로그램을 만들어서 사용했었다.&lt;br /&gt;
+&lt;del&gt;선생님한테 적발되기 전까진,&lt;/del&gt;&lt;br /&gt;
+그 이후로 딱히 자가진단 자동화에 관심을 두지 않고 그냥 주어진대로 하면서 살아갔다.&lt;br /&gt;
+헌데 어느날 깃허브에서 &lt;a href=&quot;https://github.com/kimcore/hcs.js&quot;&gt;다음 레포&lt;/a&gt;를 발견했다.&lt;/p&gt;
+
+&lt;p&gt;hcs.js라는 노드 라이브러리 프로젝트인데 최근 추가된 보안키패드에 완벽대응한다!!&lt;br /&gt;
+내가 전에 작성했던 코드는 늅늅이때 작성한 코드라 개판이고, &lt;del&gt;지금도 늅이다..&lt;/del&gt;&lt;br /&gt;
+특히 이번에 보안키패드를 적용하여 그냥 작동불능이 되었다.&lt;br /&gt;
+난 hcs.js 프로젝트를 보고 다시 내가 만든 프로그램을 개량하고 싶었다.&lt;br /&gt;
+그냥 그저 시스탬을 분석해 자동으로 동작하는 모습을 보고 싶었다.&lt;/p&gt;
+
+&lt;p&gt;먼저 hcs.js 라이브러리를 사용해보기로 결심했고, node을 다운받을 방법을 찾았다.&lt;/p&gt;
+
+&lt;h2 id=&quot;nodejs를-설치하는-올바른-방법&quot;&gt;nodeJS를 설치하는 올바른 방법&lt;/h2&gt;
+
+&lt;p&gt;nodeJS를 설치하는데 많은 방법이 있는거 같았다.&lt;br /&gt;
+‘nodejs install’이라고 검색했을때 블로그마다 다른 검색결과가 뜨는걸 보면 알수 있었다.&lt;br /&gt;
+내가 찾은 방법은 2가지였다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;nvm 같은 노드버전관리자를 이용해 설치하는 방법&lt;/li&gt;
+  &lt;li&gt;winget, apt같은 패키지관리자를 이용해 특정 버전의 node을 설치하는 방법,&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;솔직히 2번 방법을 사용해도 문제가 없겠지만 노드버전관리자가 존재하는 이유가 있다.&lt;br /&gt;
+nodejs의 신버전 출시가 매우 빈번하게 일어난다는것이다.&lt;/p&gt;
+
+&lt;p&gt;패키지관리자로 node을 설치하면 매번 신버전의 노드가 설치되어 기존 의존성이 깨질수도 있고, 의존성이외에 문제가 생길수도 있다.
+이런걸 해결하기위해 다양한 버전에 노드를 동시에 사용할수 있는 nvm을 사용하는 것이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;nvm을-이용해-node을-설치하는-방법&quot;&gt;nvm을 이용해 node을 설치하는 방법&lt;/h2&gt;
+
+&lt;p&gt;curl 도구를 설치하자.&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get install curl&lt;/code&gt;&lt;br /&gt;
+아래 명령어로 nvm을 설치하자&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash&lt;/code&gt;&lt;br /&gt;
+혹시 zsh이나 기타 다른 쉘을 이용하고 있다면 pipe(|) 뒤를 bash이 아닌 zsh 또는 다른 것으로 변경해주자&lt;br /&gt;
+++ 글을 쓰는 시점에선 0.39.0이 최신 버전이지만 나중에 업데이트가 될수도 있다.&lt;br /&gt;
+업데이트 여부를 확인하려면 &lt;a href=&quot;https://github.com/nvm-sh/nvm&quot;&gt;이 페이지&lt;/a&gt;에서 확인해보자&lt;/p&gt;
+
+&lt;p&gt;이제 nvm가 설치되었다.&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;command -v nvm&lt;/code&gt; 명령을 사용해 설치여부를 알 수 있는데 ‘명령어를 찾을수 없음’과 같은 메세지가 출력되면 터미널을 닫았다가 다시 켜보자&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nvm install node&lt;/code&gt; 명령어를 이용해 최신버전의 node나 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nvm install --lts&lt;/code&gt; 명령어로 안정적인 릴리즈를 설치할수도 있다.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node --version&lt;/code&gt; 명령어를 실행하면 설치된 node의 버전이 출력된다.&lt;br /&gt;
+nodejs가 잘 설치되었으니 프로그래밍을 즐기고, nvm tool에 대해 조금 더 공부해보자&lt;/p&gt;</content><author><name>minpeter</name></author><category term="TIL" /><category term="node" /><category term="TIL" /><summary type="html">난 솔직히 자가진단이 싫다. 최근 아이폰 7으로 바꾸기 전까지는 앱이 열리는데까지 너무 오래걸렸고, 짜피 의식의 흐름대로 아니오를 3번 입력하는 동작은 정말 비효율적으로 느껴진다. 하지만 교육청에선 필요하다고 생각하는 모양이다. 뭐 과거의 나는 교육청에서 뭐라고 생각하든 신경쓰지않았고, python으로 자가진단 서버에 리퀘를 보내 자가진단을 자동으로 수행해주는 프로그램을 만들어서 사용했었다. 선생님한테 적발되기 전까진, 그 이후로 딱히 자가진단 자동화에 관심을 두지 않고 그냥 주어진대로 하면서 살아갔다. 헌데 어느날 깃허브에서 다음 레포를 발견했다.</summary></entry><entry><title type="html">⛷️ apt vs dnf, snap vs flatpak</title><link href="https://minpeter.github.io/posts/apt-vs-dnf-,-snap-vs-flatpak/" rel="alternate" type="text/html" title="⛷️ apt vs dnf, snap vs flatpak" /><published>2021-10-01T11:24:00+09:00</published><updated>2021-12-20T13:51:11+09:00</updated><id>https://minpeter.github.io/posts/apt-vs-dnf-,-snap-vs-flatpak</id><content type="html" xml:base="https://minpeter.github.io/posts/apt-vs-dnf-,-snap-vs-flatpak/">&lt;p&gt;리눅스를 처음 접하면 기장 반가운건 다양한 것들중 단연 패키지관리자일 것이다.&lt;br /&gt;
+만약 windows에 winget 패키지 관리자가 나오기 전이나, 또는 아직까지도 winget에 대해 들어보자도 못한 개발자에게는 더욱 반가웠을 것이다.&lt;br /&gt;
+&lt;del&gt;windows의 새로운 패키지 관리자인 winget에 대해선 다음에 다뤄보도록 하겠다.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;우리가 보통 (그러니까 windows에서) 프로그램을 설치할때는 꽤 복잡하다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;해당 프로그램을 구글에 검색&lt;/li&gt;
+  &lt;li&gt;프로그램의 exe 파일이나 msix 파일 다운&lt;/li&gt;
+  &lt;li&gt;다운 받은 파일을 누르고 관리자권한 부여&lt;/li&gt;
+  &lt;li&gt;다음 버튼 연타&lt;/li&gt;
+  &lt;li&gt;끝&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이렇듯 절대 쉬운 과정이 아니며 이런 과정 중간에 설치한 exe, msi, msix 파일이 남게 된다.&lt;br /&gt;
+프로그램을 지울때도 설정창에 들어가 다음 버튼 연타를 시전해야되고, 만약 windows 10에서 바뀐 설정 프로그램에 안뜨는 프로그램이면 레거시 제어판을 켜서 삭제해야된다. (똑같이 다음버튼 연타도..)&lt;/p&gt;
+
+&lt;p&gt;하지만 리눅스를 사용하게되면, 설치하자마자 바로 apt나 yum, dnf 같은 패키지 관리자가 반겨준다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;but..&lt;/strong&gt; apt, yum같은 기본 패키지 관리자는 배포판별로 사용되는 deb, rpm같은 각 배포판 전용 파일을 사용하여, 은근 설치가 불가능한 프로그램들이 많다.&lt;/p&gt;
+
+&lt;p&gt;예을 들면 ubuntu에서 사용하는 기본 패키지 관리자인 apt로는 discord을 바로 설치할 수 없으며 공식패이지에서도 deb나 rpm 패키지 파일을 받을 수 없다.&lt;/p&gt;
+
+&lt;p&gt;이럴때 갑자기 리눅스를 사용하기로 결심한게 후회되고 막 손이 떨리면서 다시 원도우로 가고 싶고 winget이 그립고 macbook 병에 도져서 apple.com에 들어갈꺼같다면, 잠깐만 기다려라&lt;/p&gt;
+
+&lt;p&gt;바로 리눅스유저에게 주어진 snap와 flatpak!!!
+snap은 아마도 ubuntu 유저라면 전부 들어봤을 snap-store의 백엔드이고 (그렇다고 하자) flatpak는 fedora 스토어의 일부로 등록되있다.&lt;/p&gt;
+
+&lt;p&gt;이 둘에는 일반적인 패키지 관리자보다 훨씬 많은 패키지를 소유하고 있는데 이게 가능한 이유는 배포판과 별게로 완전히 다른 공간에서 실행되는 개념이기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;혹시 appimage를 사용해본적이 있거나 macOS을 사용해 보았다면 빨리 이해가 가능하다.&lt;/p&gt;
+
+&lt;p&gt;둘다 인터넷에서 파일만 다운 받으면 별도의 설정없이 바로 실행할수 있는데, 해당 파일 안에 모든 정보가 기록되어 있기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;이와 마찬가지로 snap, flatpak 커맨드에서는 각각 범용 패키징 파일을 사용하여 리눅스 배포판에 상관없이 모든 배포판에 설치할수 있고 어음… 그 골머리를 썩혔던 discord도 한줄이면 설치된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;snap install discord&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;난 이걸 몰라서 뻘짓을 많이 했다&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;flatpak도 거희 동일하다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flatpak install 패키지명&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;뭐 둘이 거희 동일하지만 보유하고 있는 패키지가 서로 다르기 때문에 둘 다 사용하는 편이 좋은거 같다.&lt;/p&gt;
+
+&lt;p&gt;아직은 snap과 flatpak가 내부적으로 어떻게 패키징하면 모든 배포판에서 돌아가는 건지는 모르지만 나중에 gtk 프로그래밍을 입문하게 되면 snap과 flatpak 패키징을 각각 진행해 보고 싶다.&lt;br /&gt;
+시험 끝나면 해야지 :)&lt;/p&gt;</content><author><name>minpeter</name></author><category term="linux" /><category term="node" /><category term="linux" /><category term="TIL" /><summary type="html">리눅스를 처음 접하면 기장 반가운건 다양한 것들중 단연 패키지관리자일 것이다. 만약 windows에 winget 패키지 관리자가 나오기 전이나, 또는 아직까지도 winget에 대해 들어보자도 못한 개발자에게는 더욱 반가웠을 것이다. windows의 새로운 패키지 관리자인 winget에 대해선 다음에 다뤄보도록 하겠다.</summary></entry><entry><title type="html">🕸️ stack 서비스를 외부에서 사용하기</title><link href="https://minpeter.github.io/posts/stack-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EC%99%B8%EB%B6%80%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="🕸️ stack 서비스를 외부에서 사용하기" /><published>2021-09-14T08:23:00+09:00</published><updated>2021-09-15T21:29:59+09:00</updated><id>https://minpeter.github.io/posts/stack-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EC%99%B8%EB%B6%80%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0</id><content type="html" xml:base="https://minpeter.github.io/posts/stack-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EC%99%B8%EB%B6%80%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/">&lt;p&gt;기본적으로 stack에서 실행되는 서비스를 외부에 접속하기위해선 manager 노드와 연결되어야한다.&lt;br /&gt;
+하지만 전 포스트에서 만든 echo stack은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;constraints: [node.role != manager]&lt;/code&gt;옵션으로 매니저에서는 실행되지 않도록 설정했기 때문에 각각 컨테이너가 여러 노드에 분산되어있기때문에 전에 visualizer 서비스를 만들때와 같은 방식 또한 사용할수 없다.&lt;/p&gt;
+
+&lt;p&gt;따라서 클러스터 외부의 트래픽을 내부로 보내주는 프록시 서버를 구성해보겠다.&lt;br /&gt;
+haproxy 이미지를 사용하여 외부트래픽이 nginx 컨테이너로 가도록 설정해보자.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ingress.yaml&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;na&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3&quot;&lt;/span&gt;
+
+&lt;span class=&quot;na&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;haproxy&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;dockercloud/haproxy&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;test&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/var/run/docker.sock:/var/run/docker.sock&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;deploy&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;mode&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;global&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;placement&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;constraints&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;node.role == manager&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;80:80&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;1936:1936&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# for stats page (basic auth. stats:stats)&lt;/span&gt;
+
+&lt;span class=&quot;na&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;external&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;해당 프록시는 8080포트위 페이지를 외부 80포트로 연결해주는 간단한 프록시이다.&lt;br /&gt;
+파일 manager컨테이너로 이동&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker cp ingress.yaml manager:/ingress.yaml
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;서비스배포&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it manager \
+docker stack deploy -c /ingress.yaml ingress
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;아래 명령어로 서비스가 실행되고 있는 것을 확인할수 있다.(또는 visualizer를 이용해 확인해도된다.)&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it manager \
+docker service ls
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;마지막으로 로컬에서 브라우저로 &lt;a href=&quot;http://localhost:8000&quot;&gt;localhost:8000&lt;/a&gt;에 접속하면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hello, flask!&lt;/code&gt;라는 메세지가 출력되는것을 알수 있다.&lt;br /&gt;
+이때 프록시서버에서 80 포트로 포워딩했는데 8000 포트에 접속하는 이유는 우리가 클러스터 컨테이너를 만들당시 manager노드의 포트를 8000:80으로 주었기때문이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;참고자료&quot;&gt;참고자료&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://cornswrold.tistory.com/516?category=930033&quot;&gt;스웜(swarm)을 이용한 도커 컨테이너 배포_3 (스웜 클러스터 외부에서 서비스 사용하기)&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.docker.com/engine/swarm/ingress/&quot;&gt;docker docs&lt;/a&gt;&lt;/p&gt;</content><author><name>minpeter</name></author><category term="server" /><category term="docker" /><category term="swarm" /><category term="server" /><summary type="html">기본적으로 stack에서 실행되는 서비스를 외부에 접속하기위해선 manager 노드와 연결되어야한다. 하지만 전 포스트에서 만든 echo stack은 constraints: [node.role != manager]옵션으로 매니저에서는 실행되지 않도록 설정했기 때문에 각각 컨테이너가 여러 노드에 분산되어있기때문에 전에 visualizer 서비스를 만들때와 같은 방식 또한 사용할수 없다.</summary></entry><entry><title type="html">🦕 docker stack visualizer</title><link href="https://minpeter.github.io/posts/docker-stack-visualizer/" rel="alternate" type="text/html" title="🦕 docker stack visualizer" /><published>2021-09-13T12:05:00+09:00</published><updated>2021-09-13T23:34:38+09:00</updated><id>https://minpeter.github.io/posts/docker-stack-visualizer</id><content type="html" xml:base="https://minpeter.github.io/posts/docker-stack-visualizer/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+&lt;p&gt;visualizer는 2016 dockercon에서 stack기능 소개를 위해 만들어진 툴이다.&lt;br /&gt;
+이를 이용하면 swarm모드에서 노드와 컨테이너의 분포상태를 시각적으로 볼수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;실습&quot;&gt;실습&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;visualizer.yaml&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;na&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3&quot;&lt;/span&gt;
+
+&lt;span class=&quot;na&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;dockersamples/visualizer&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;9000:8080&quot;&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/var/run/docker.sock:/var/run/docker.sock&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;deploy&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;mode&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;global&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;placement&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;constraints&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;node.role == manager&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;컨테이너를 이용해 실습하고 있다면 docker cp명령어로 파일을 옮겨주자&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker cp visualizer.yaml manager:/visualizer.yaml
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;서비스를 실행해주자&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it manager \
+docker stack deploy -c /visualizer.yaml visualizer
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;localhost:9000에 접속해보면 아름다운 창이 뜰것이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;참고자료&quot;&gt;참고자료&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cornswrold.tistory.com/515?category=930033&quot;&gt;스웜(swarm)을 이용한 도커 컨테이너 배포_2&lt;/a&gt;&lt;/p&gt;</content><author><name>minpeter</name></author><category term="server" /><category term="docker" /><category term="swarm" /><category term="visualizer" /><category term="server" /><summary type="html">개요 visualizer는 2016 dockercon에서 stack기능 소개를 위해 만들어진 툴이다. 이를 이용하면 swarm모드에서 노드와 컨테이너의 분포상태를 시각적으로 볼수 있다.</summary></entry><entry><title type="html">🐙 Swarm의 compose stack</title><link href="https://minpeter.github.io/posts/Swarm%EC%9D%98-compose-stack/" rel="alternate" type="text/html" title="🐙 Swarm의 compose stack" /><published>2021-09-12T21:05:00+09:00</published><updated>2021-09-15T21:29:59+09:00</updated><id>https://minpeter.github.io/posts/Swarm%EC%9D%98-compose-stack</id><content type="html" xml:base="https://minpeter.github.io/posts/Swarm%EC%9D%98-compose-stack/">&lt;h2 id=&quot;swarm에서-compose&quot;&gt;swarm에서 compose&lt;/h2&gt;
+&lt;p&gt;전에서 run명령어와 비슷한 service 명령어를 이용해 swarm에 컨테이너를 띄우고 스케일을 조정해보았다.&lt;br /&gt;
+이번엔 compose명령어와 비슷한 stack에 대해 알아보자.&lt;br /&gt;
+스택이란 하나 이상의 서비스를 그룹으로 묶은 단위로, 애플리케이션 저체 구성을 정의한다.&lt;br /&gt;
+그냥 간단하게 swarm에서 작동하는 (스케일기능이 포함된) compose라고 생각하자&lt;br /&gt;
+또 특징으로는 compose와 동일하게 같은 네트워크에 포함되게된다.&lt;/p&gt;
+
+&lt;p&gt;일단 네트워크을 하나 생성해주자&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it manager \
+docker network create --driver=overlay --attachable test
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;test라는 이름의 네트워크를 생성해주었다.&lt;br /&gt;
+이제 stack-compose 파일을 생성해주자&lt;br /&gt;
+&lt;strong&gt;docker-stack.yaml&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;na&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3'&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;flask-echo&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;minpeter/flask-echo&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;deploy&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;replicas&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;placement&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;constraints&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;node.role != manager&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;5000:5000&quot;&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;test&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;nginx-echo&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;minpeter/nginx-echo&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;deploy&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;replicas&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;placement&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;constraints&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;node.role != manager&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;flask-echo&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;8080:80&quot;&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;test&lt;/span&gt;
+
+&lt;span class=&quot;na&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;external&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;이제 파일을 manager 컨테이너로 보내야되는데 docker cp 명령어를 사용하자&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker cp docker-stack.yaml manager:/docker-stack.yaml
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;이제 stack을 배포할 차례이다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it manager \
+docker stack deploy -c /docker-stack.yaml echo
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;이제 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hello, flask!&lt;/code&gt;를 출력하는 간단한 페이지가 8080포트에 올라갔다.&lt;br /&gt;
+배포된 서비스를 확인해보자&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it manager \
+docker stack services echo
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;스택이 컨테이너를 배포한 방식을 확인하려면 다음 명령어를 사용하자.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it manager \
+docker stack ps echo
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;참고자료&quot;&gt;참고자료&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cornswrold.tistory.com/515?category=930033&quot;&gt;스웜(swarm)을 이용한 도커 컨테이너 배포_2&lt;/a&gt;&lt;/p&gt;</content><author><name>minpeter</name></author><category term="server" /><category term="docker" /><category term="docker-swarm" /><category term="server" /><summary type="html">swarm에서 compose 전에서 run명령어와 비슷한 service 명령어를 이용해 swarm에 컨테이너를 띄우고 스케일을 조정해보았다. 이번엔 compose명령어와 비슷한 stack에 대해 알아보자. 스택이란 하나 이상의 서비스를 그룹으로 묶은 단위로, 애플리케이션 저체 구성을 정의한다. 그냥 간단하게 swarm에서 작동하는 (스케일기능이 포함된) compose라고 생각하자 또 특징으로는 compose와 동일하게 같은 네트워크에 포함되게된다.</summary></entry><entry><title type="html">☁️ onedrive와 pihole (TIL)</title><link href="https://minpeter.github.io/posts/onedrive%EC%99%80-pihole/" rel="alternate" type="text/html" title="☁️ onedrive와 pihole (TIL)" /><published>2021-09-12T17:25:00+09:00</published><updated>2021-09-12T21:01:10+09:00</updated><id>https://minpeter.github.io/posts/onedrive%EC%99%80-pihole</id><content type="html" xml:base="https://minpeter.github.io/posts/onedrive%EC%99%80-pihole/">&lt;h2 id=&quot;사건의-발단&quot;&gt;사건의 발단&lt;/h2&gt;
+&lt;p&gt;별것도 아닌걸로 2일을 날렸다.&lt;br /&gt;
+windows 11 DEV 채널이 BETA 채널과 완전히 분리되어 다른 빌드번호를 가지게 되었다.&lt;br /&gt;
+뭔 뜻이냐면 이제 더 이상 DEV에서 BETA로 넘어갈 수 없다는 뜻이고, 더이상 DEV에서는 실사용으로 사용하기 어려울꺼라는 뜻이다.&lt;br /&gt;
+또 마침 22454 빌드로 넘어가고 전 빌드에 존재했던 sandbox 작동 불능은 고쳐지지도 않고 taskbar에 아이콘이 왼쪽으로 치우쳐지는 이상한 버그가 생겼다.&lt;br /&gt;
+솔직히 이렇게 버그가 많은데 DEV 채널 플라이트를 계속할 이유도 없었고,&lt;br /&gt;
+따라서 BETA채널로 내려가기를 결정했다.&lt;/p&gt;
+
+&lt;h2 id=&quot;onedrive와-pihole을-궁합&quot;&gt;onedrive와 pihole을 궁합&lt;/h2&gt;
+&lt;p&gt;BETA채널로 내려가기 위해선 전부 재설치를 해야했다.&lt;br /&gt;
+최근 winget 패키지관리자로 프로그램 설치도 간단해졌고 원도우 설치도 얼마 안걸리는 마당에 그냥 밀기로했다.&lt;br /&gt;
+설치 usb만들고 BETA설치를 한뒤 onedrive 로컬폴더 백업을 할때 문제가 생겼다.&lt;br /&gt;
+옵션이 없는 것이다.&lt;br /&gt;
+혹시 윈도우설치가 잘못됬나싶어서 재설치도 해보고, 다시 DEV로 올라가서 설정도 해봤다.&lt;br /&gt;
+전부 실패였다.&lt;br /&gt;
+뭐가 문제였을까?&lt;br /&gt;
+생각보다 간단했다.&lt;br /&gt;
+&lt;a href=&quot;https://support.microsoft.com/ko-kr/office/onedrive%eb%a6%b4%eb%a6%ac%ec%8a%a4-%ec%a0%95%eb%b3%b4-%ec%b0%b8%ec%a1%b0-845dcf18-f921-435e-bf28-4e24b95e5fc0?ui=ko-kr&amp;amp;rs=ko-kr&amp;amp;ad=kr&quot;&gt;about onedrive&lt;/a&gt;
+에 들어가보면 아래와 같이 나와있다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;참고 사항: 
+
+표의 빈칸은 현재 해당 링에 배포 중인 빌드가 없음을 의미합니다.
+
+OneDrive 동기화 앱 업데이트를 적용하려면 컴퓨터가 다음에 연결될 수 있어야 합니다: &quot;oneclient.sfx.ms&quot; 및 &quot;g.live.com.&quot; 이들 도메인을 차단하고 있지 않은지 확인합니다. 이들은 또한 기능을 활성화/비활성홯하고 버그 수정을 적용하는데 사용됩니다. Microsoft 365에서 사용되는 URL 및 IP 주소에 대한 자세한 정보
+
+OneDrive 동기화 앱 업데이트 프로세스에 대해 자세히 알아보십시오.
+
+지연된 링 릴리스를 완료한 후 빌드가 프로덕션 링에 릴리스되기를 기다린 후 지연된 링의 다음 릴리스로 선택합니다. 이 경우 정확한 빌드 번호와 대상 날짜를 게시하기 전에 지연된 열을 &quot;다음 릴리스: 19.222.x&quot;을 업데이트하여 고객의 계획에 도움을 제공합니다.
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;2번째 줄을 유심히 보자&lt;br /&gt;
+“oneclient.sfx.ms”와 “g.live.com”에 연결할 수 있어야한다.&lt;br /&gt;
+근데 ping test를 해보니 “g.live.com”에 접속이 되지 않았다.&lt;br /&gt;
+정확히는 아예 ip주소를 못찾았으니 pihole이 막고 있는 것이다.&lt;br /&gt;
+DNS서버를 기본상태로 돌리고 다시 백업 설정을 해보니 거짓말같이 잘 작동하였다.&lt;br /&gt;
+아놔 ㅅㅂ….&lt;br /&gt;
+솔직히 마소 잘못은 아니다 ㅋㅋ g.live.com 이 광고이미지서버, msc뉴스서버, 원드라이브의 일부 기능까지 너무 광범위하게 사용될뿐이지…&lt;br /&gt;
+pihole에 화이트리스트를 주고 windows 11 beta 체널로 이주를 완료했다.&lt;/p&gt;
+
+&lt;p&gt;글에 언급된거 말고도 별 뻘짓을 다해서 2일이나 날려먹었다.&lt;br /&gt;
+&lt;del&gt;내소중한주말..&lt;/del&gt;&lt;/p&gt;</content><author><name>minpeter</name></author><category term="TIL" /><category term="onedrive" /><category term="pihole" /><category term="homelab" /><category term="dns" /><category term="server" /><category term="TIL" /><summary type="html">사건의 발단 별것도 아닌걸로 2일을 날렸다. windows 11 DEV 채널이 BETA 채널과 완전히 분리되어 다른 빌드번호를 가지게 되었다. 뭔 뜻이냐면 이제 더 이상 DEV에서 BETA로 넘어갈 수 없다는 뜻이고, 더이상 DEV에서는 실사용으로 사용하기 어려울꺼라는 뜻이다. 또 마침 22454 빌드로 넘어가고 전 빌드에 존재했던 sandbox 작동 불능은 고쳐지지도 않고 taskbar에 아이콘이 왼쪽으로 치우쳐지는 이상한 버그가 생겼다. 솔직히 이렇게 버그가 많은데 DEV 채널 플라이트를 계속할 이유도 없었고, 따라서 BETA채널로 내려가기를 결정했다.</summary></entry><entry><title type="html">🐋 Docker swarm Orchestration</title><link href="https://minpeter.github.io/posts/Docker-swarm-Orchestration/" rel="alternate" type="text/html" title="🐋 Docker swarm Orchestration" /><published>2021-09-09T11:12:00+09:00</published><updated>2021-09-13T16:14:46+09:00</updated><id>https://minpeter.github.io/posts/Docker-swarm-Orchestration</id><content type="html" xml:base="https://minpeter.github.io/posts/Docker-swarm-Orchestration/">&lt;h1 id=&quot;소개&quot;&gt;소개&lt;/h1&gt;
+&lt;p&gt;해당 포스트는 도커안에 도커 (dind)기능을 이용해 로컬에서 클러스터와 유사한 환경을 구성하고,&lt;br /&gt;
+docker swarm을 이용해 클러스터를 제어하는 Orchestration을 실습하는 방법에 대한 포스팅이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;docker-swarm-orchestration이란&quot;&gt;docker swarm, Orchestration이란?&lt;/h2&gt;
+&lt;p&gt;docker swarm은 kubernetes와 같은 Orchestration tool이다.&lt;br /&gt;
+예를 들어 5대의 서버가 있다고 생각해보자&lt;br /&gt;
+Orchestration tool을 사용하지 않을 경우는 각각 서버에 동일한 기능을 하도록 설정하거나, 각자 특정기능을 담당하는 식으로 설정해야될 것이다.&lt;br /&gt;
+하지만 이 경우 특정 기능이나 서비스에 많은 요청이 들어올경우, 직접 수동으로 해당 서비스를 더 많이 만들어주어야 한다.&lt;br /&gt;
+하지만 Orchestration tool을 이용하면 설정값에 따라 특정 서비스를 생성하고 유지하기 때문에 부하가 많이 걸릴시 설정만 바꿔주면 되고 해당 작업 또한 자동화 할 수 있게된다.&lt;br /&gt;
+또 서비스를 업데이트 할때 서비스를 종료하지않고 배포하는 것이 가능하다.&lt;br /&gt;
+(특정 서버에 서비스를 몰아서 배치하는 것이 아닌 분산하여 배치하기 때문에 순차적으로 배포를 진행하면 중단하지 않고도 가능하다.)&lt;br /&gt;
+배포를 하였을때 해당 배포에 문제가 생긴 경우 배포를 중단하고 원래 배포전 상태로 돌려주고, 서비스에 문제가 생겨 종료된 경우 자동으로 재시작도 진행해준다.&lt;br /&gt;
+이처럼 서비스가 배포중에도 중단되지않고 꺼지지 않아야 하는 경우 사용하면 좋은 도구이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;docker-swarm에서-사용하는-용어-설명&quot;&gt;docker swarm에서 사용하는 용어 설명&lt;/h2&gt;
+&lt;p&gt;|이름|역활|
+|:—:|:—:|
+|compose|여러 컨테이너로 구성된 도커 애플리케션을 관리함|
+|swarm|클러스터 구축 및 관리|
+|service|기본적인 배포단위, swarm에서 클러스터 안의 서비스을 관리, 기본 docker에서 run과 비슷하다|
+|stack|swarm에서 여러 개의 서비스를 합함 전체 애플리케이션을 관리|
+|node|swarm 클러스터에 속한 도커 서버의 단위|
+|manager node|스윔 클러스터의 상태를 관리하는 노드, 동시에 worker node가 될 수 있고, 여기에서만 swarm명령어를 실행할수 있다.|
+|worker node|manager node의 명령을 받아 컨테이너를 생성, 상태를 체크하는 노드|
+|task|컨테이너 배포 단위, 서비스는 여러개의 task을 실행, task는 컨테이너를 관리한다|&lt;/p&gt;
+
+&lt;h1 id=&quot;docker-swarm-실습&quot;&gt;docker swarm 실습&lt;/h1&gt;
+&lt;p&gt;docker swarm은 기본적으로 여러개의 서버를 관리하는 툴이다.&lt;br /&gt;
+하지만 우리가 실습할때는 대부분 노트북 하나만을 가지고 실습을 할 것이다.&lt;br /&gt;
+따라서 실제 환경과는 조금 다른 가상 실습환경을 만들것이다.&lt;br /&gt;
+다양한 방법이 있지만 dind (docker in docker)기능을 활용해서 도커 컨테이너를 각각 노드로 사용하여 실습하도록하겠다.&lt;br /&gt;
+(다른 방법으로는 vagrant을 이용해 가상머신을 생성해주거나 클라우드서비스를 이용해 실제 클러스터를 구현할수도)&lt;br /&gt;
+docker compose을 이용해서 1개의 manager node(dind)와 3개의 worker node(dind)을 생성해줄것이다.&lt;br /&gt;
+참고한 기존 블로그 글에서는 registy컨테어너가 별도로 존재했지만 실습결과 딱히 필요성을 느끼지 못해 삭제하였다.&lt;br /&gt;
+(docker registy는 docker hub를 대체하는 로컬서버정도로 이해하면 될 것 같다.)&lt;/p&gt;
+
+&lt;h2 id=&quot;가상클러스터-생성&quot;&gt;가상클러스터 생성&lt;/h2&gt;
+&lt;p&gt;docker-swarm 디렉토리를 생성하고 그 안에 아래의 코드를 참조해 파일을 만들어주자.&lt;br /&gt;
+&lt;strong&gt;docker-compose.yaml&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;na&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;manager&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;container_name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;manager&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;docker:dind&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;privileged&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;tty&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;8000:80&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;9000:9000&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;registry&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3375&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;./stack:/stack&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;worker01&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;container_name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;worker01&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;docker:dind&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;privileged&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;tty&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;manager&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;registry&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;7946&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;7946/udp&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;4789/udp&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;worker02&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;container_name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;worker02&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;docker:dind&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;privileged&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;tty&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;manager&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;registry&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;7946&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;7946/udp&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;4789/udp&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;worker03&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;container_name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;worker03&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;docker:dind&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;privileged&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;tty&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;manager&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;registry&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;7946&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;7946/udp&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;4789/udp&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;details&gt;
+&lt;summary&gt;registry을 이용한 예제&lt;/summary&gt;
+&lt;div&gt;
+
+    &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;na&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;registry&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;container_name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;registry&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;registry:latest&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;5000:5000&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;./registry-data:/var/lib/registry&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;manager&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;container_name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;manager&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;docker:dind&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;privileged&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;tty&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;8000:80&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;9000:9000&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;registry&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3375&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;--insecure-registry&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;registry:5000&quot;&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;./stack:/stack&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;worker01&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;container_name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;worker01&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;docker:dind&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;privileged&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;tty&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;manager&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;registry&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;7946&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;7946/udp&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;4789/udp&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;--insecure-registry&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;registry:5000&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;worker02&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;container_name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;worker02&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;docker:dind&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;privileged&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;tty&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;manager&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;registry&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;7946&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;7946/udp&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;4789/udp&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;--insecure-registry&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;registry:5000&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;worker03&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;container_name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;worker03&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;docker:dind&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;privileged&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;tty&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;manager&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;registry&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;7946&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;7946/udp&lt;/span&gt;
+            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;4789/udp&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;--insecure-registry&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;registry:5000&quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;다음 아래의 명령어를 입력해주자&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker compose up -d
+$ docker ps
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;이제 클러스터의 역활을 할 컨테이너가 4개 또는 5개가 생성된 것을 확인 할 수 있을 것이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;manager-등록&quot;&gt;manager 등록&lt;/h2&gt;
+&lt;p&gt;원래 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker swarm init&lt;/code&gt; 명령어를 이용해 등록하면 되지만 현제 컨테이너 안에 가상클러스터를 실행했기 때문에 명령어 앞에 다음 명령어를 추가로 입력해주어야한다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it (실행할 타겟, manager or worker) \
+(실행할 명령어)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;따라서 메니저에서 docker swarm init 명령어를 실행하기 위해서는 다음 명령어를 실행하면 된다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it manager \
+docker swarm init
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;명령어를 입력하면 아래에&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker swarm join --token (토큰값) (메니저IP):(port)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;형태로 출력될텐데 다음 명령어를 복사해주자.&lt;/p&gt;
+
+&lt;h2 id=&quot;worker-등록&quot;&gt;worker 등록&lt;/h2&gt;
+&lt;p&gt;위에서 복사한 명령어를 worker에서 실행하면 우리가 만든 swarm 클러스터에 등록할 수 있다.&lt;br /&gt;
+다음과 같은 방식으로 worker01 ~ worker 03까지 등록을 진행해주자.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it worker01 \
+docker swarm join --token (토큰값) (메니저IP):(port)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it worker02 \
+docker swarm join --token (토큰값) (메니저IP):(port)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it worker03 \
+docker swarm join --token (토큰값) (메니저IP):(port)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;이제 아래 명령어로 노드가 잘 등록됬는지 확인해보자&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it manager \
+docker node ls
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;만약 worker node을 포함해 4개의 node가 나온다면 클러스터를 만드는데 성공한 것이다.&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;docker registry 이미지 등록&lt;/summary&gt;
+&lt;div&gt;
+
+    &lt;h2 id=&quot;section&quot;&gt;이미지 태그 생성&lt;/h2&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker tag (원본이미지) localhost:5000/(원본이미지)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;h2 id=&quot;registry---&quot;&gt;registry 컨테이너에 이미지 등록&lt;/h2&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker push localhost:5000/(원본이미지)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;h2 id=&quot;worker---&quot;&gt;worker 컨테이너에서 이미지 다운&lt;/h2&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it worker01 \
+docker pull registry:5000/(원본이미지)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;h2 id=&quot;section-1&quot;&gt;이미지확인&lt;/h2&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;$ docker exec -it worker01 \
+docker images
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;서비스-생성&quot;&gt;서비스 생성&lt;/h2&gt;
+&lt;p&gt;swarm에서 단일 컨테이너를 배포하기 위해선 service라는 단위를 사용하는데 다음 명령어로 실행할수 있다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;docker service create --name [서비스이름] -p [외부포트]:[내부포트] [도커이미지]:[태그]
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;이를 테스트 해보기 위해 &lt;a href=&quot;https://hub.docker.com/r/hashicorp/http-echo/&quot;&gt;hashcorp/http-echo&lt;/a&gt;이미지를 사용해보자&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;docker exec -it manager \
+docker service create --name test_swarm -p 5678:5678 hashcorp/http-echo:latest
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;다음 명령어로 서비스가 생성된걸 확인할수 있다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;docker exec -it manager \
+docker service ls
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;생성된것이 확인되었으면 다음 명령어로 스케일을 조정해보자&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;docker exec -it manager \
+docker service scale test_swarm=6
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;잠깐기달리면 swarm이 알아서 컨테이너를 생성해 각 노드에 분활배치한다.&lt;br /&gt;
+그리고 service ls 명령어로 다시 확인해보면 REPLICAS가 1개에서 9개로 늘어난것을 확인할수 있다.&lt;/p&gt;
+
+&lt;p&gt;생성한 서비스를 삭제하기 위해선 다음 명령어를 입력하자&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;docker exec -it manager \
+docker serivce rm test_swarm
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;참고자료&quot;&gt;참고자료&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cornswrold.tistory.com/512?category=930033&quot;&gt;스웜(swarm)을 이용한 도커 컨테이너 배포_1&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://subicura.com/2017/02/25/container-orchestration-with-docker-swarm.html&quot;&gt;Docker Swarm을 이용한 쉽고 빠른 분산 서버 관리&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.docker.com/engine/swarm&quot;&gt;docker docs&lt;/a&gt;&lt;/p&gt;</content><author><name>minpeter</name></author><category term="server" /><category term="docker" /><category term="docker-swarm" /><category term="server" /><summary type="html">소개 해당 포스트는 도커안에 도커 (dind)기능을 이용해 로컬에서 클러스터와 유사한 환경을 구성하고, docker swarm을 이용해 클러스터를 제어하는 Orchestration을 실습하는 방법에 대한 포스팅이다.</summary></entry><entry><title type="html">🎉 edge의 독재에서 벗어나기 (TIL)</title><link href="https://minpeter.github.io/posts/edge%EC%9D%98-%EB%8F%85%EC%9E%AC%EC%97%90%EC%84%9C-%EB%B2%97%EC%96%B4%EB%82%98%EA%B8%B0/" rel="alternate" type="text/html" title="🎉 edge의 독재에서 벗어나기 (TIL)" /><published>2021-09-05T00:30:00+09:00</published><updated>2021-09-05T00:30:00+09:00</updated><id>https://minpeter.github.io/posts/edge%EC%9D%98-%EB%8F%85%EC%9E%AC%EC%97%90%EC%84%9C-%EB%B2%97%EC%96%B4%EB%82%98%EA%B8%B0</id><content type="html" xml:base="https://minpeter.github.io/posts/edge%EC%9D%98-%EB%8F%85%EC%9E%AC%EC%97%90%EC%84%9C-%EB%B2%97%EC%96%B4%EB%82%98%EA%B8%B0/">&lt;h2 id=&quot;잡설&quot;&gt;잡설&lt;/h2&gt;
+&lt;p&gt;시작하기 앞써 잡설을 풀자면, 점점 마크다운 실력이 늘고 있다.&lt;br /&gt;
+역시 마크다운으로 작성하는 블로그의 힘!&lt;br /&gt;
+이 글을 보는 당신도 github pages 블로그 개설을 추천한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;해결해야될-문제&quot;&gt;해결해야될 문제&lt;/h2&gt;
+&lt;p&gt;우리는 많은 이유로 &lt;del&gt;그리고 핑게로&lt;/del&gt; 윈도우를 사용한다.&lt;br /&gt;
+인터넷뱅킹, 윈도우 전용 프로그램, wsl의 편리함, winget으로 인한 편의성,  &lt;strong&gt;게임&lt;/strong&gt;&lt;br /&gt;
+하지만 윈도우를 사용하는 모든 사용자는 한번 만나게 되는 존재가 있으니,&lt;br /&gt;
+이름하여 &lt;strong&gt;MS EDGE&lt;/strong&gt; 되시겠다.&lt;br /&gt;
+우리 엣지브라우저로 말할꺼 같으면 윈도우 기본 브라우저인데다가 속도도 빠르고 이번 업데이트로 비활성탭기능이 추가되어 메모리를 많이 절약할수 있고 크로미움 기반으로 만들어져서 크롬 확장프로그램을 거희 그대로 사용가능하다는 장점.. &lt;del&gt;etc&lt;/del&gt;가 있는 브라우전데&lt;br /&gt;
+&lt;strong&gt;난 필요없다.&lt;/strong&gt;&lt;br /&gt;
+따라서 우리는 edge를 지우고 싶어한다. &lt;del&gt;(그래야만해)&lt;/del&gt;
+하지만 윈도우 검색기능, 코나타, 나도 모르는 다양한 윈도우 기능과 edge가 연동되어 있으며, 삭제가 &lt;del&gt;거희&lt;/del&gt; 불가능하다.&lt;br /&gt;
+&lt;del&gt;(레지스터에서 지우는 글을 봤었다 따라하진 말자)&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;사실 설치돼 있어도 그냥 크롬 설치해서 기본브라우저 설정하고 쓰면 문제 없다.&lt;br /&gt;
+하지만 설정이 안봐뀌는게 있으니, 윈도우의 검색기능이다.&lt;br /&gt;
+윈도우 검색은 기본이 엣지며 설정창에선 변경이 불가능하다.&lt;br /&gt;
+이는 명백히 독재이다.&lt;br /&gt;
+사실 마소가 순순히 업데이트로 독재를 그만두면 가장 좋은데 그럴리가 없다.&lt;/p&gt;
+
+&lt;p&gt;이번 글에서는 윈도우의 검색기능을 크롬으로 변경하는 방법에 대해 소개한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;엣지에-독재에서-벗어나는-방법&quot;&gt;엣지에 독재에서 벗어나는 방법&lt;/h2&gt;
+&lt;p&gt;방법은 생각보다 쉽다.&lt;br /&gt;
+EdgeDeflector란 프로그램을 이용하여 윈도우를 속여 Edge 대신 기본브라우저로 검색 url을 넘겨준다.&lt;br /&gt;
+그 다음에 크롬확장프로그램은 redirect bing 플러그인으로 bing url을 다른 검색엔진 url로 변경해준다.&lt;br /&gt;
+그럼 검색결과 페이지가 기본브라우저로 켜지는 방식이다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;먼저 엣지가 아닌 다른 브라우저를 윈도우 기본브라우저로 설정해준다.&lt;br /&gt;
+ 굳이 크롬일 필요도 없으며 그냥 오패라, 웨일 아무거나 설정해주면된다.&lt;br /&gt;
+ 기본브라우저로 설정하는 방법은 윈도우 11 기준 윈도우 10보다 조금 복잡해졌다.&lt;br /&gt;
+ 아래 링크를 보고 기본브라우저로 설정해주자.&lt;br /&gt;
+ &lt;a href=&quot;https://www.windowscentral.com/how-set-default-web-browser-windows-11&quot;&gt;how set default web browser windows 11&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;다음으론 Edge Deflector를 설치해야한다.&lt;br /&gt;
+오픈소스프로그램으로 깃허브에 올라와있다.&lt;br /&gt;
+아래 페이지에서 최신버전의 EdgeDeflector_install.exe 파일을 다운받아주자.&lt;br /&gt;
+&lt;a href=&quot;https://github.com/da2x/EdgeDeflector/releases&quot;&gt;github.com/da2x/EdgeDeflector/releases&lt;/a&gt;&lt;br /&gt;
+설치하면 설정을 어떻게 하는지 설명해주는 페이지가 뜰꺼다.&lt;br /&gt;
+차근차근 따라하면 얼마안걸린다.&lt;br /&gt;
+(더 편한방법으론 그냥 검색한번해서 edgedeflector 항상사용 -&amp;gt; 확인)&lt;/li&gt;
+  &lt;li&gt;크롬 확장프로그램을 설치하자.&lt;br /&gt;
+사실 설치를 안해도 크롬으로 검색이 된다.&lt;br /&gt;
+하지만 검색결과가 bing… 이걸 자동으로 구글이나 다른 검색엔진으로 바꾸기 위해 설치한다.&lt;br /&gt;
+설치는 아래 링크를 사용하자.&lt;br /&gt;
+&lt;a href=&quot;https://chrome.google.com/webstore/detail/chrometana-pro-redirect-c/lllggmgeiphnciplalhefnbpddbadfdi/related?hl=ko&amp;amp;gl=US&quot;&gt;Chrometana Pro&lt;/a&gt;&lt;br /&gt;
+또는 &lt;a href=&quot;https://chrome.google.com/webstore/category/extensions?utm_source=chrome-ntp-icon&amp;amp;gl=US&quot;&gt;chrome 웹 스토어&lt;/a&gt;에서 redirect bing을 검색해 원하는걸 다운받자.&lt;br /&gt;
+&lt;del&gt;무슨이유에서인지 스토어지역을 미국으로 설정해야지만 검색결과가 나온다.&lt;br /&gt;
+구글에서 대한민국을 막은거같다.&lt;/del&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;결과&quot;&gt;결과&lt;/h2&gt;
+&lt;p&gt;이제 검색을 해보자!&lt;br /&gt;
+chrome으로 &lt;del&gt;또는 다른 기본브라우저로&lt;/del&gt; 열리는걸 볼 수 있다.&lt;br /&gt;
+이젠 edge 독재에서 조금은 더 벗어났다.&lt;br /&gt;
+좋은 프로그램을 만들어주신 &lt;a href=&quot;https://github.com/da2x&quot;&gt;Daniel Aleksandersen&lt;/a&gt;와 기여자들께 감사드리며 조금은 더 편하게 윈도우를 사용해야겠다.&lt;/p&gt;
+
+&lt;h2 id=&quot;참고자료&quot;&gt;참고자료&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/da2x/EdgeDeflector&quot;&gt;EdgeDeflector&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://chrome.google.com/webstore/detail/chrometana-pro-redirect-c/lllggmgeiphnciplalhefnbpddbadfdi/related?hl=ko&amp;amp;gl=US&quot;&gt;Chrometana Pro&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://comterman.tistory.com/2134&quot;&gt;컴터맨의 컴퓨터 이야기 - 윈도우10 검색 상자 Bing 검색을 Google로 바꾸는 방법. 코타나의 Bing 검색 변경&lt;/a&gt;&lt;/p&gt;</content><author><name>minpeter</name></author><category term="TIL" /><category term="edge" /><category term="windows" /><category term="chrome" /><category term="EdgeDeflector" /><category term="TIL" /><summary type="html">잡설 시작하기 앞써 잡설을 풀자면, 점점 마크다운 실력이 늘고 있다. 역시 마크다운으로 작성하는 블로그의 힘! 이 글을 보는 당신도 github pages 블로그 개설을 추천한다.</summary></entry></feed>
