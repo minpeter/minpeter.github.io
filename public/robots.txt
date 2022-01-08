@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: http://minpeter.github.io/sitemap.xml
