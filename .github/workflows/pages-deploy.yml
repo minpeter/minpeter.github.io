@@ -1,53 +1,33 @@
-name: 'Automatic build'
+name: "deploy ghpage"
 on:
   push:
-    branches:
-      - main
-    paths-ignore:
-      - .gitignore
-      - README.md
-      - LICENSE
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  continuous-delivery:
-
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: actions/checkout@v2
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0  # for posts's lastmod
+          submodules: recursive
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          ruby-version: 2.7
-          bundler-cache: true
+          hugo-version: "latest"
 
-      - name: Check baseurl
+      - name: Build Hugo Site
         run: |
-          baseurl="$(grep '^baseurl:' _config.yml | sed "s/.*: *//;s/['\"]//g;s/#.*//")"
-          if [[ -n $baseurl ]]; then
-            echo "BASE_URL=$baseurl" >> $GITHUB_ENV
-          fi
-
-      - name: Build Site
-        env:
-          JEKYLL_ENV: production
-        run: |
-          bundle exec jekyll b -d "_site$BASE_URL"
-
-      - name: Test Site
-        run: |
-          bash tools/test.sh
+          hugo version
+          hugo --minify
 
       - name: Deploy
-        run: |
-          if [[ -n $BASE_URL ]]; then
-            mv _site$BASE_URL _site-rename
-            rm -rf _site
-            mv _site-rename _site
-          fi
-
-          bash tools/deploy.sh
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.DEPLOY_KEY }}
+          publish_branch: gh-pages
+          publish_dir: ./public
