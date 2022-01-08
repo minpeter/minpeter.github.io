@@ -1,4 +1,4 @@
-baseURL: "http://minpeter.github.io/"
+baseURL: "https://minpeter.github.io/"
 title: minpeter DEV blog
 paginate: 5
 theme: PaperMod
@@ -87,7 +87,7 @@ params:
     - name: github
       url: "https://github.com/minpeter"
     - name: rss
-      url: "https://minpeter.github.io/feed.xml"
+      url: "https://minpeter.github.io/index.xml"
 
   analytics:
     google:
