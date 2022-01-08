@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>macOS on minpeter DEV blog</title>
+    <link>http://minpeter.github.io/tags/macos/</link>
+    <description>Recent content in macOS on minpeter DEV blog</description>
+    <image>
+      <url>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 30 Aug 2021 03:43:00 +0900</lastBuildDate><atom:link href="http://minpeter.github.io/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>😂 노트북 고장 (TIL)</title>
+      <link>http://minpeter.github.io/posts/til/2021-08-30-%EB%85%B8%ED%8A%B8%EB%B6%81-%EA%B3%A0%EC%9E%A5/</link>
+      <pubDate>Mon, 30 Aug 2021 03:43:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/posts/til/2021-08-30-%EB%85%B8%ED%8A%B8%EB%B6%81-%EA%B3%A0%EC%9E%A5/</guid>
+      <description>제목에 대해서 사실, 노트북이 크게 고장난건 아니다.
+정확히 말하자면 비정상화랄까?
+사건의 재구성 내가 쓰고 있는 thinkpad T470이 처음에 ebay에서 망가진체로 한국에 입국한걸 생각하면 놀랍지도 않는데,
+아침에 노트북을 열다가 갑자기 힌지가 덜컹(?)이는게 느껴지는거다..
+뭔가 망했음을 느끼고 빨리 힌지쪽 나사를 쪼여주지 않으면 조만간 디스플레이가 분리될꺼 같다고 생각하기 시작했다.
+마침 온라인클래스라서 뭔가 일을 저질르기 최적이였고 머릿속으로 이런 계획을 세웠다.
+ 노트북을 분해해서 힌지쪽 나사를 쪼여준다. 저번에 ssd 문제 (pm981)로 실패한 해킨토시를 다시 설치하자! 지난 2번과는 다르게 멋지게 하판분해에 성공해 플라스틱이 부서지지않은 상태로 다시 조립하자!</description>
+    </item>
+    
+  </channel>
+</rss>

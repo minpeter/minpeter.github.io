@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on minpeter DEV blog</title>
+    <link>http://minpeter.github.io/tags/</link>
+    <description>Recent content in Tags on minpeter DEV blog</description>
+    <image>
+      <url>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 20 Dec 2021 13:28:00 +0900</lastBuildDate><atom:link href="http://minpeter.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bat</title>
+      <link>http://minpeter.github.io/tags/bat/</link>
+      <pubDate>Mon, 20 Dec 2021 13:28:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/bat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://minpeter.github.io/tags/linux/</link>
+      <pubDate>Mon, 20 Dec 2021 13:28:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logo-ls</title>
+      <link>http://minpeter.github.io/tags/logo-ls/</link>
+      <pubDate>Mon, 20 Dec 2021 13:28:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/logo-ls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>http://minpeter.github.io/tags/terminal/</link>
+      <pubDate>Mon, 20 Dec 2021 13:28:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TIL</title>
+      <link>http://minpeter.github.io/tags/til/</link>
+      <pubDate>Mon, 18 Oct 2021 14:25:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/til/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtualization</title>
+      <link>http://minpeter.github.io/tags/virtualization/</link>
+      <pubDate>Mon, 18 Oct 2021 14:25:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/virtualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vmware</title>
+      <link>http://minpeter.github.io/tags/vmware/</link>
+      <pubDate>Mon, 18 Oct 2021 14:25:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/vmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>node</title>
+      <link>http://minpeter.github.io/tags/node/</link>
+      <pubDate>Fri, 01 Oct 2021 11:24:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>http://minpeter.github.io/tags/docker/</link>
+      <pubDate>Tue, 14 Sep 2021 08:23:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>server</title>
+      <link>http://minpeter.github.io/tags/server/</link>
+      <pubDate>Tue, 14 Sep 2021 08:23:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swarm</title>
+      <link>http://minpeter.github.io/tags/swarm/</link>
+      <pubDate>Tue, 14 Sep 2021 08:23:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/swarm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visualizer</title>
+      <link>http://minpeter.github.io/tags/visualizer/</link>
+      <pubDate>Mon, 13 Sep 2021 12:05:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/visualizer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker-swarm</title>
+      <link>http://minpeter.github.io/tags/docker-swarm/</link>
+      <pubDate>Sun, 12 Sep 2021 21:05:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/docker-swarm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dns</title>
+      <link>http://minpeter.github.io/tags/dns/</link>
+      <pubDate>Sun, 12 Sep 2021 17:25:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>homelab</title>
+      <link>http://minpeter.github.io/tags/homelab/</link>
+      <pubDate>Sun, 12 Sep 2021 17:25:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/homelab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>onedrive</title>
+      <link>http://minpeter.github.io/tags/onedrive/</link>
+      <pubDate>Sun, 12 Sep 2021 17:25:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/onedrive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pihole</title>
+      <link>http://minpeter.github.io/tags/pihole/</link>
+      <pubDate>Sun, 12 Sep 2021 17:25:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/pihole/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chrome</title>
+      <link>http://minpeter.github.io/tags/chrome/</link>
+      <pubDate>Sun, 05 Sep 2021 00:30:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>edge</title>
+      <link>http://minpeter.github.io/tags/edge/</link>
+      <pubDate>Sun, 05 Sep 2021 00:30:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/edge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EdgeDeflector</title>
+      <link>http://minpeter.github.io/tags/edgedeflector/</link>
+      <pubDate>Sun, 05 Sep 2021 00:30:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/edgedeflector/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>http://minpeter.github.io/tags/windows/</link>
+      <pubDate>Sun, 05 Sep 2021 00:30:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberrypi</title>
+      <link>http://minpeter.github.io/tags/raspberrypi/</link>
+      <pubDate>Thu, 02 Sep 2021 12:59:59 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackintosh</title>
+      <link>http://minpeter.github.io/tags/hackintosh/</link>
+      <pubDate>Mon, 30 Aug 2021 03:43:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/hackintosh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macOS</title>
+      <link>http://minpeter.github.io/tags/macos/</link>
+      <pubDate>Mon, 30 Aug 2021 03:43:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thinkpad</title>
+      <link>http://minpeter.github.io/tags/thinkpad/</link>
+      <pubDate>Mon, 30 Aug 2021 03:43:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/thinkpad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lfs</title>
+      <link>http://minpeter.github.io/tags/lfs/</link>
+      <pubDate>Sun, 29 Aug 2021 12:59:59 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/lfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oh-my-zsh</title>
+      <link>http://minpeter.github.io/tags/oh-my-zsh/</link>
+      <pubDate>Sun, 29 Aug 2021 05:05:05 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/oh-my-zsh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>p10k</title>
+      <link>http://minpeter.github.io/tags/p10k/</link>
+      <pubDate>Sun, 29 Aug 2021 05:05:05 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/p10k/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>http://minpeter.github.io/tags/shell/</link>
+      <pubDate>Sun, 29 Aug 2021 05:05:05 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zsh</title>
+      <link>http://minpeter.github.io/tags/zsh/</link>
+      <pubDate>Sun, 29 Aug 2021 05:05:05 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/zsh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sway</title>
+      <link>http://minpeter.github.io/tags/sway/</link>
+      <pubDate>Sat, 28 Aug 2021 23:59:59 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/sway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wayland</title>
+      <link>http://minpeter.github.io/tags/wayland/</link>
+      <pubDate>Sat, 28 Aug 2021 23:59:59 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/wayland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>http://minpeter.github.io/tags/github/</link>
+      <pubDate>Mon, 23 Aug 2021 15:51:38 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github-pages</title>
+      <link>http://minpeter.github.io/tags/github-pages/</link>
+      <pubDate>Mon, 23 Aug 2021 15:51:38 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>http://minpeter.github.io/tags/jekyll/</link>
+      <pubDate>Mon, 23 Aug 2021 15:51:38 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>http://minpeter.github.io/tags/ruby/</link>
+      <pubDate>Mon, 23 Aug 2021 15:51:38 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>command</title>
+      <link>http://minpeter.github.io/tags/command/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/command/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gnome</title>
+      <link>http://minpeter.github.io/tags/gnome/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/gnome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ibus</title>
+      <link>http://minpeter.github.io/tags/ibus/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/ibus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qt5</title>
+      <link>http://minpeter.github.io/tags/qt5/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/qt5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>http://minpeter.github.io/tags/ubuntu/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>한글입력</title>
+      <link>http://minpeter.github.io/tags/%ED%95%9C%EA%B8%80%EC%9E%85%EB%A0%A5/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://minpeter.github.io/tags/%ED%95%9C%EA%B8%80%EC%9E%85%EB%A0%A5/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

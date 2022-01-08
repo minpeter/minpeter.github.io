@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>lfs on minpeter DEV blog</title>
+    <link>http://minpeter.github.io/tags/lfs/</link>
+    <description>Recent content in lfs on minpeter DEV blog</description>
+    <image>
+      <url>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 29 Aug 2021 12:59:59 +0900</lastBuildDate><atom:link href="http://minpeter.github.io/tags/lfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🐧 LFS (TIL)</title>
+      <link>http://minpeter.github.io/posts/til/2021-08-29-lfs/</link>
+      <pubDate>Sun, 29 Aug 2021 12:59:59 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/posts/til/2021-08-29-lfs/</guid>
+      <description>오늘 공부한 것 오늘부터 시간이 날때마다 커널에 대해 조금씩 공부하기로 마음먹었다!
+원도우에서 wsl2, sandbox, hyper-V 같은 가상화를 이용하는 기술에 대해 공부하던 중,
+hyper-v에 type1과 type2에 대해 알게되었고, 이로 인해 전에 wsl2와 VMware을 같이 못쓰는 이유에 대해 이해하게 되었다!
+(VMware는 type1을 이용 WSL2, sandbox는 type2이용)
+이때 hyper-v type 1의 형테에서 흥미를 느꼈는데, 저 구조대로면 windows도 hypervisor 상의 GuestOS가 되어야 되기 때문이다.
+조금 더 자료를 찾아보니 이런 사진을 찾을 수 있었다.
+역시 예상대로였다.</description>
+    </item>
+    
+  </channel>
+</rss>

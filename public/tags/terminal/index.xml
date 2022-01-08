@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>terminal on minpeter DEV blog</title>
+    <link>http://minpeter.github.io/tags/terminal/</link>
+    <description>Recent content in terminal on minpeter DEV blog</description>
+    <image>
+      <url>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 20 Dec 2021 13:28:00 +0900</lastBuildDate><atom:link href="http://minpeter.github.io/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🦢 logo-ls, bat</title>
+      <link>http://minpeter.github.io/posts/linux/2021-12-20-logo-ls-bat/</link>
+      <pubDate>Mon, 20 Dec 2021 13:28:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/posts/linux/2021-12-20-logo-ls-bat/</guid>
+      <description>터미널을 쓰다보면 알록달록해서 예쁜게 마음에 드는거 같으면서도 글자만 나와서 심심하다. 몇몇 명령어는 조금 바뀌었으면 하는 부분도 있고..
+이번 글에서는 이런 부분을 약간 개선해보자.
+logo-ls 설치 logo-ls는 go로 만든 오픈소스 프로그램이다.
+github에 올라와있다.
+심심한 ls 명령어와 다르게 각각 파일 옆에 아이콘을 출력해주어 약간은 예쁘게 보기도록 도와준다.
+설치하는 방법은 간단하다.
+릴리즈 페이지에서 제공하는 패키지 파일을 다운받아 설치해주면 끝이다.
+하지만 상황에 따라 추가로 해야되는 것이 있는데 폰트 설치이다.
+폰트가 설치되어있지 않으면 네모에 물음표가 떠있는 아이콘이 표시된다.</description>
+    </item>
+    
+  </channel>
+</rss>

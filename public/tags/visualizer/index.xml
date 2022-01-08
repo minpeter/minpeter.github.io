@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>visualizer on minpeter DEV blog</title>
+    <link>http://minpeter.github.io/tags/visualizer/</link>
+    <description>Recent content in visualizer on minpeter DEV blog</description>
+    <image>
+      <url>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Sep 2021 12:05:00 +0900</lastBuildDate><atom:link href="http://minpeter.github.io/tags/visualizer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🦕 docker stack visualizer</title>
+      <link>http://minpeter.github.io/posts/server/2021-09-13-docker-stack-visualizer/</link>
+      <pubDate>Mon, 13 Sep 2021 12:05:00 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/posts/server/2021-09-13-docker-stack-visualizer/</guid>
+      <description>개요 visualizer는 2016 dockercon에서 stack기능 소개를 위해 만들어진 툴이다.
+이를 이용하면 swarm모드에서 노드와 컨테이너의 분포상태를 시각적으로 볼수 있다.
+실습 visualizer.yaml
+1 2 3 4 5 6 7 8 9 10 11 12 13  version: &amp;#34;3&amp;#34; services: app: image: dockersamples/visualizer ports: - &amp;#34;9000:8080&amp;#34; volumes: - /var/run/docker.sock:/var/run/docker.sock deploy: mode: global placement: constraints: [node.role == manager]   컨테이너를 이용해 실습하고 있다면 docker cp명령어로 파일을 옮겨주자
+1  $ docker cp visualizer.yaml manager:/visualizer.</description>
+    </item>
+    
+  </channel>
+</rss>

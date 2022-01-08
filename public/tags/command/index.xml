@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>command on minpeter DEV blog</title>
+    <link>http://minpeter.github.io/tags/command/</link>
+    <description>Recent content in command on minpeter DEV blog</description>
+    <image>
+      <url>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://minpeter.github.io/tags/command/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>⚙️ Linux service command</title>
+      <link>http://minpeter.github.io/posts/linux/2020-01-01-linux-service-command/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://minpeter.github.io/posts/linux/2020-01-01-linux-service-command/</guid>
+      <description>개요 라즈베라파이 제로 세팅중 ssh 접속을 위해 nmap스캔을 하던 도중
+내 노트북에 22번 포트가 오픈돼 있다는 것을 발견했다.
+해결방법 ssh 서버를 종료하면 간단하게 해결된다. 따라서
+  sudo service ssh stop
+  sudo systemctl status ssh (서버스 상태 확인)
+  추가로! 명령어 service를 알아보도록 하자
+Usage: service &amp;lt; option &amp;gt; | --status-all | [ service_name [ command | --full-restart ] ]
+위에 command에는 start|stop|reload|force-reload|restart|try-restart|status가 있다
+END
+작성이유는&amp;hellip; 나중에 ssh 쓸일있을때 서버 실행하게 ㅎ</description>
+    </item>
+    
+  </channel>
+</rss>

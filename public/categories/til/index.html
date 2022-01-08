@@ -1,0 +1,183 @@
+<!doctype html><html lang=en dir=auto>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=robots content="index, follow">
+<title>TIL | minpeter DEV blog</title>
+<meta name=keywords content>
+<meta name=description content="Posts related to computer development">
+<meta name=author content="minpeter">
+<link rel=canonical href=http://minpeter.github.io/categories/til/>
+<meta name=google-site-verification content="RNVL00kQq_OXnyYh9S4hgL35tPhS5wdFNf_qNiXhxS8">
+<link crossorigin=anonymous href=/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
+<link rel=preload href=/icon.png as=image>
+<link rel=icon href=http://minpeter.github.io/fav.ico>
+<link rel=icon type=image/png sizes=16x16 href=http://minpeter.github.io/%3Clink%20/%20abs%20url%3E>
+<link rel=icon type=image/png sizes=32x32 href=http://minpeter.github.io/fav.png>
+<link rel=apple-touch-icon href=http://minpeter.github.io/%3Clink%20/%20abs%20url%3E>
+<link rel=mask-icon href=http://minpeter.github.io/%3Clink%20/%20abs%20url%3E>
+<meta name=theme-color content="#2e2e33">
+<meta name=msapplication-TileColor content="#2e2e33">
+<meta name=generator content="Hugo 0.91.2">
+<link rel=alternate type=application/rss+xml href=http://minpeter.github.io/categories/til/index.xml>
+<noscript>
+<style>#theme-toggle,.top-link{display:none}</style>
+<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6FQKWLZK1S"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-6FQKWLZK1S',{anonymize_ip:!1})}</script>
+<meta property="og:title" content="TIL">
+<meta property="og:description" content="Posts related to computer development">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://minpeter.github.io/categories/til/"><meta property="og:image" content="http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="og:site_name" content="minpeter DEV blog">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name=twitter:title content="TIL">
+<meta name=twitter:description content="Posts related to computer development">
+</head>
+<body class=list id=top>
+<script>window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+<header class=header>
+<nav class=nav>
+<div class=logo>
+<a href=http://minpeter.github.io/ accesskey=h title="minpeter DEV blog (Alt + H)">
+<img src=/icon.png alt=logo aria-label=logo height=35>minpeter DEV blog</a>
+<span class=logo-switches>
+</span>
+</div>
+<ul id=menu>
+<li>
+<a href=http://minpeter.github.io/archives/ title=📦Archives>
+<span>📦Archives</span>
+</a>
+</li>
+<li>
+<a href=http://minpeter.github.io/categories/ title=🗃️Categories>
+<span>🗃️Categories</span>
+</a>
+</li>
+<li>
+<a href=http://minpeter.github.io/search/ title="🔎Search (Alt + /)" accesskey=/>
+<span>🔎Search</span>
+</a>
+</li>
+<li>
+<a href=http://minpeter.github.io/tags/ title=🏷️Tags>
+<span>🏷️Tags</span>
+</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=main>
+<header class=page-header>
+<h1>TIL</h1>
+</header>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>🐌 wsl docker sandbox and VMware (TIL)
+</h2>
+</header>
+<section class=entry-content>
+<p>난 아직 맥북을 사지 못했다.
+사실 맥북을 사도 별로 달라질꺼같진않는데
+아무튼 터미널을 사용해야되기 때문에 wsl의 힘을 빌려서 windows에서의 생활을 이어나가는 중이다.
+그런데.. 그런데.. 막 gnome 41, fedora 35 beta 이런 뉴스가 들려올때면 리눅스 데스크톱 환경의 발전을 체험해 보고 싶어진다.
+wsl이 좋은 프로그램인건 문명하지만 내가 원하는 데스크톱 환경 체험은 완전히 다른 목적으로 개발된 프로그램이기에 걍 가상머신을 돌리는 편이 낫다.
+🔏 wsl와 VMware의 공존 내가 노트북에 VMware을 설치하길 꺼린 이유는 hyper-v 이슈 때문이다....</p>
+</section>
+<footer class=entry-footer><span title="2021-10-18 14:25:00 +0900 KST">October 18, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;minpeter</footer>
+<a class=entry-link aria-label="post link to 🐌 wsl docker sandbox and VMware (TIL)" href=http://minpeter.github.io/posts/til/2021-10-18-wsl-docker-sandbox-and-vmware/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>🦎 nvm을 이용한 node버전관리 (TIL)
+</h2>
+</header>
+<section class=entry-content>
+<p>난 솔직히 자가진단이 싫다.
+최근 아이폰 7으로 바꾸기 전까지는 앱이 열리는데까지 너무 오래걸렸고,
+짜피 의식의 흐름대로 아니오를 3번 입력하는 동작은 정말 비효율적으로 느껴진다.
+하지만 교육청에선 필요하다고 생각하는 모양이다.
+뭐 과거의 나는 교육청에서 뭐라고 생각하든 신경쓰지않았고,
+python으로 자가진단 서버에 리퀘를 보내 자가진단을 자동으로 수행해주는 프로그램을 만들어서 사용했었다.
+선생님한테 적발되기 전까진,
+그 이후로 딱히 자가진단 자동화에 관심을 두지 않고 그냥 주어진대로 하면서 살아갔다.
+헌데 어느날 깃허브에서 다음 레포를 발견했다.
+hcs.js라는 노드 라이브러리 프로젝트인데 최근 추가된 보안키패드에 완벽대응한다!...</p>
+</section>
+<footer class=entry-footer><span title="2021-10-01 11:24:00 +0900 KST">October 1, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;minpeter</footer>
+<a class=entry-link aria-label="post link to 🦎 nvm을 이용한 node버전관리 (TIL)" href=http://minpeter.github.io/posts/til/2021-10-01-nvm%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-node%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>☁️ onedrive와 pihole (TIL)
+</h2>
+</header>
+<section class=entry-content>
+<p>사건의 발단 별것도 아닌걸로 2일을 날렸다.
+windows 11 DEV 채널이 BETA 채널과 완전히 분리되어 다른 빌드번호를 가지게 되었다.
+뭔 뜻이냐면 이제 더 이상 DEV에서 BETA로 넘어갈 수 없다는 뜻이고, 더이상 DEV에서는 실사용으로 사용하기 어려울꺼라는 뜻이다.
+또 마침 22454 빌드로 넘어가고 전 빌드에 존재했던 sandbox 작동 불능은 고쳐지지도 않고 taskbar에 아이콘이 왼쪽으로 치우쳐지는 이상한 버그가 생겼다.
+솔직히 이렇게 버그가 많은데 DEV 채널 플라이트를 계속할 이유도 없었고,
+따라서 BETA채널로 내려가기를 결정했다.
+onedrive와 pihole을 궁합 BETA채널로 내려가기 위해선 전부 재설치를 해야했다....</p>
+</section>
+<footer class=entry-footer><span title="2021-09-12 17:25:00 +0900 KST">September 12, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;minpeter</footer>
+<a class=entry-link aria-label="post link to ☁️ onedrive와 pihole (TIL)" href=http://minpeter.github.io/posts/til/2021-09-12-onedrive%EC%99%80-pihole/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>🎉 edge의 독재에서 벗어나기 (TIL)
+</h2>
+</header>
+<section class=entry-content>
+<p>잡설 시작하기 앞써 잡설을 풀자면, 점점 마크다운 실력이 늘고 있다.
+역시 마크다운으로 작성하는 블로그의 힘!
+이 글을 보는 당신도 github pages 블로그 개설을 추천한다.
+해결해야될 문제 우리는 많은 이유로 그리고 핑게로 윈도우를 사용한다.
+인터넷뱅킹, 윈도우 전용 프로그램, wsl의 편리함, winget으로 인한 편의성, 게임
+하지만 윈도우를 사용하는 모든 사용자는 한번 만나게 되는 존재가 있으니,
+이름하여 MS EDGE 되시겠다.
+우리 엣지브라우저로 말할꺼 같으면 윈도우 기본 브라우저인데다가 속도도 빠르고 이번 업데이트로 비활성탭기능이 추가되어 메모리를 많이 절약할수 있고 크로미움 기반으로 만들어져서 크롬 확장프로그램을 거희 그대로 사용가능하다는 장점....</p>
+</section>
+<footer class=entry-footer><span title="2021-09-05 00:30:00 +0900 KST">September 5, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;minpeter</footer>
+<a class=entry-link aria-label="post link to 🎉 edge의 독재에서 벗어나기 (TIL)" href=http://minpeter.github.io/posts/til/2021-09-05-edge%EC%9D%98-%EB%8F%85%EC%9E%AC%EC%97%90%EC%84%9C-%EB%B2%97%EC%96%B4%EB%82%98%EA%B8%B0/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>😂 노트북 고장 (TIL)
+</h2>
+</header>
+<section class=entry-content>
+<p>제목에 대해서 사실, 노트북이 크게 고장난건 아니다.
+정확히 말하자면 비정상화랄까?
+사건의 재구성 내가 쓰고 있는 thinkpad T470이 처음에 ebay에서 망가진체로 한국에 입국한걸 생각하면 놀랍지도 않는데,
+아침에 노트북을 열다가 갑자기 힌지가 덜컹(?)이는게 느껴지는거다..
+뭔가 망했음을 느끼고 빨리 힌지쪽 나사를 쪼여주지 않으면 조만간 디스플레이가 분리될꺼 같다고 생각하기 시작했다.
+마침 온라인클래스라서 뭔가 일을 저질르기 최적이였고 머릿속으로 이런 계획을 세웠다.
+노트북을 분해해서 힌지쪽 나사를 쪼여준다. 저번에 ssd 문제 (pm981)로 실패한 해킨토시를 다시 설치하자! 지난 2번과는 다르게 멋지게 하판분해에 성공해 플라스틱이 부서지지않은 상태로 다시 조립하자!...</p>
+</section>
+<footer class=entry-footer><span title="2021-08-30 03:43:00 +0900 KST">August 30, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;minpeter</footer>
+<a class=entry-link aria-label="post link to 😂 노트북 고장 (TIL)" href=http://minpeter.github.io/posts/til/2021-08-30-%EB%85%B8%ED%8A%B8%EB%B6%81-%EA%B3%A0%EC%9E%A5/></a>
+</article>
+<footer class=page-footer>
+<nav class=pagination>
+<a class=next href=http://minpeter.github.io/categories/til/page/2/>Next Page »</a>
+</nav>
+</footer>
+</main>
+<footer class=footer>
+<span>&copy; 2022 <a href=http://minpeter.github.io/>minpeter DEV blog</a></span>
+<span>
+Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a>
+</span>
+</footer>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a>
+<script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
+</body>
+</html>

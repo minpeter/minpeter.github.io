@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>raspberrypi on minpeter DEV blog</title>
+    <link>http://minpeter.github.io/tags/raspberrypi/</link>
+    <description>Recent content in raspberrypi on minpeter DEV blog</description>
+    <image>
+      <url>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://minpeter.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 02 Sep 2021 12:59:59 +0900</lastBuildDate><atom:link href="http://minpeter.github.io/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📡 pi hole을 이용한 광고 제거</title>
+      <link>http://minpeter.github.io/posts/server/2021-09-02-pi-hole%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B4%91%EA%B3%A0-%EC%A0%9C%EA%B1%B0/</link>
+      <pubDate>Thu, 02 Sep 2021 12:59:59 +0900</pubDate>
+      
+      <guid>http://minpeter.github.io/posts/server/2021-09-02-pi-hole%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B4%91%EA%B3%A0-%EC%A0%9C%EA%B1%B0/</guid>
+      <description>pi hole이란? 라즈베리파이와 리눅스계열 운영체제에 설치되는 DNS서버이다.
+하지만 광고 제거을 곁들인
+일반적으로 사용하는 크롬 플러그인과 다르게 네트워크단에서 광고를 차단하기 때문에 성능저하가 덜하다.
+또한 플러그인에 비해 비교 불가능한 장점이 있는데, 공유기에 DNS서버를 pihole로 설정하면 해당 네트워크 전체에 적용된다.
+그러니까 스마트폰에서도 된단 소리다
+이러한 장점이 있으나 무조건 해야겠지?
+설치과정 설치하는 방법은 크게 2가지로 나뉜다.
+  설치스크립트를 이용하는 방법
+curl -sSL https://install.pi-hole.net | bash
+입력한 뒤에 선택창같은게 뜰꺼다.
+눈칫것 설정해주자.
+곧 pi hole이 실행될 것이다.</description>
+    </item>
+    
+  </channel>
+</rss>
