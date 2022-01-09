@@ -4,7 +4,6 @@ date: 2022-01-09T22:07:54+09:00
 draft: false
 categories: [TIL]
 tags: [vscode, extension]
-pin: yes
 ---
 
 ## Discord Presence
