@@ -1,11 +1,10 @@
 ---
 title: "📦 Vscode Extension 추천"
 date: 2022-01-09T22:07:54+09:00
-draft: true
-author: [minpeter, dkdkd]
-categories: [github]
-tags: [go, hugo, github, github-pages]
-pin: no
+draft: false
+categories: [TIL]
+tags: [vscode, extension]
+pin: yes
 ---
 
 ## Discord Presence
