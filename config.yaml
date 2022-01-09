@@ -20,6 +20,13 @@ outputs:
     - RSS
     - JSON # is necessary
 
+staticDir:
+  - "static"
+  - "content/posts/TIL"
+  - "content/posts/server"
+  - "content/posts/linux"
+  - "content/posts/github"
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: minpeter DEV blog
@@ -48,15 +55,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/asset/fav.ico"
+    favicon: "/fav.ico"
     favicon16x16: "<link / abs url>"
-    favicon32x32: "/asset/fav.png"
+    favicon32x32: "/fav.png"
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "minpeter DEV blog"
-    icon: /asset/icon.png
+    icon: /icon.png
     iconHeight: 35
 
   # # profile-mode
