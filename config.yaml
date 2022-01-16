@@ -22,10 +22,10 @@ outputs:
 
 staticDir:
   - "static"
-  - "content/posts/TIL"
-  - "content/posts/server"
-  - "content/posts/linux"
-  - "content/posts/github"
+  - "content/posts/TIL/images"
+  - "content/posts/server/images"
+  - "content/posts/linux/images"
+  - "content/posts/github/images"
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
