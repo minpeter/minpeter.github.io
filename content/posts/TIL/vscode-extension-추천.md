@@ -1,8 +1,8 @@
 ---
 title: "📦 Vscode Extension 추천"
 date: 2022-01-09T22:07:54+09:00
-draft: false
 categories: [TIL]
+description: "PIFLP 플러그인을 테스트하기 위해 작성해 본 테스트 글입니다 :)"
 tags: [vscode, extension]
 ---
 

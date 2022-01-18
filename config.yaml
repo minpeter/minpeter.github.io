@@ -25,7 +25,7 @@ staticDir:
   - "content/posts/TIL/images"
   - "content/posts/server/images"
   - "content/posts/linux/images"
-  - "content/posts/github/images"
+  - "content/posts/blog/images"
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.

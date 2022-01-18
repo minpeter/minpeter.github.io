@@ -2,8 +2,8 @@
 title: 👻 블로그 Jekyll에서 hugo로
 author: minpeter
 date: 2022-01-09 18:53:00 +0900
-categories: [github]
-tags: [go, hugo, github, github-pages]
+categories: [blog]
+tags: [go, hugo, github, blog, github-pages]
 pin: no
 ---
 
