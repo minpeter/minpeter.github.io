@@ -2,7 +2,7 @@
 title: 🦢 logo-ls, bat
 author: minpeter
 date: 2021-12-20 13:28:00 +0900
-categories: [linux]
+categories: [terminal settings]
 tags: [terminal, logo-ls, bat, linux]
 pin: no
 ---

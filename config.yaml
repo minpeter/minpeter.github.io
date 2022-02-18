@@ -7,6 +7,10 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+sitemap:
+  changefreq: "always"
+  filename: "sitemap.xml"
+  priority: 0.5
 
 googleAnalytics: G-6FQKWLZK1S
 
@@ -40,7 +44,7 @@ params:
   disableThemeToggle: true
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
@@ -62,9 +66,9 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "minpeter DEV blog"
-    icon: /icon.png
-    iconHeight: 35
+    text: "🚀 minpeter DEV blog"
+    # icon: /icon.png
+    # iconHeight: 35
 
   # # profile-mode
   # profileMode:
@@ -84,7 +88,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: minpeter
-    Content: 🏫 Hansei Cyber Security High School | 💘 Terminal | 🐧 Linux
+    Content: 🏫 HCSHS | 💘 Terminal | 🐧 Linux
 
   socialIcons:
     - name: twitter
