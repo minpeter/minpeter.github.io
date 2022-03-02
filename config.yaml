@@ -14,6 +14,10 @@ sitemap:
 
 googleAnalytics: G-6FQKWLZK1S
 
+analytics:
+  google:
+    SiteVerificationTag: "G-6FQKWLZK1S"
+
 minify:
   disableXML: true
   minifyOutput: true
