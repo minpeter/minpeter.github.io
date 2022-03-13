@@ -7,10 +7,10 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-sitemap:
-  changefreq: "always"
-  filename: "sitemap.xml"
-  priority: 0.5
+# sitemap:
+#   changefreq: "always"
+#   filename: "sitemap.xml"
+#   priority: 0.5
 
 googleAnalytics: G-6FQKWLZK1S
 
