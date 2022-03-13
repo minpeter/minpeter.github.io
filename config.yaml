@@ -8,9 +8,9 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 sitemap:
-  changefreq: monthly
+  # changefreq: monthly
   filename: sitemap.xml
-  priority: 0.5
+  # priority: 0.5
 
 googleAnalytics: G-6FQKWLZK1S
 
