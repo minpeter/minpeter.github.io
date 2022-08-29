@@ -1,6 +1,6 @@
 name: Deploy
 
-//deploy when push main branches
+# //deploy when push main branches
 on:
   push:
     branches:
