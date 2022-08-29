@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /tags/
-Disallow: /category/
-Disallow: /archives/
-Disallow: /search/
-Sitemap: https://minpeter.github.io/sitemap.xml
