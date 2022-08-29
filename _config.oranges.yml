@@ -31,11 +31,11 @@ navbar:
     enable: true
     path: /categories/
     key: categories
-  # -
-  #   name: About
-  #   enable: true
-  #   path: /about/
-  #   key: about
+  -
+    name: Tags
+    enable: false
+    path: /tags/
+    key: tags
   -
     name: Friends
     enable: false
