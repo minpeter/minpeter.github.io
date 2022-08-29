@@ -98,6 +98,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: oranges
+plugins:
+- hexo-generator-robotstxt
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -111,3 +113,10 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+robotstxt:
+  useragent: "*"
+  disallow:
+    - /about
+  allow: ["*"]
+  sitemap: /sitemap.xml
