@@ -1,0 +1,84 @@
+favicon:
+  enable: true
+  icon: /profile/favicon.png
+  touch_icon: /profile/favicon.png
+
+avatar:
+  author_photo: /profile/avatar.png
+  author_nickname: minpeter
+  path: /
+
+gtag:
+  enable: false
+  gtagkey: G-6FQKWLZK1S
+
+comments:
+  enable: false
+
+navbar:
+  -
+    name: Home
+    enable: true
+    path: /
+    key: home
+  -
+    name: Archives
+    enable: true
+    path: /archives/
+    key: archives
+  -
+    name: Categories
+    enable: true
+    path: /categories/
+    key: categories
+  -
+    name: About
+    enable: true
+    path: /about/
+    key: about
+
+catalog:
+  enable: true
+
+# 포스트 끝에 Prev, Next 버튼 여부
+prevnext:
+  enable: true
+
+footer:
+  social:
+    -
+      name: github
+      icon: github
+      path: https://github.com/minpeter
+
+  more:
+    -
+      name: Copyright © {thisYear} Oranges
+      path: https://github.com/zchengsite/hexo-theme-oranges
+
+# 검색기능
+search:
+  enable: true
+  placeholder: 
+
+# 테마 전환 버튼
+colorSwitch:
+  enable: true
+
+# 공유 버튼
+postShare:
+  enable: false
+
+codeBlock:
+  # style은 2가지로 normal과 mac-black가 존재함
+  style: 'mac-black'
+  # 코드 복사
+  copy:
+    enable: true
+
+# MathJax Support
+mathjax:
+  enable: true
+
+# 버튼 및 하이라이트 색상
+themeColor: '#c5c1ec'
