@@ -120,3 +120,11 @@ robotstxt:
     - /about
   allow: ["*"]
   sitemap: /sitemap.xml
+
+# Local Search 
+# search 
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
