@@ -1,5 +1,6 @@
 # minpeter DEV blog
-![image](https://user-images.githubusercontent.com/62207008/187146190-09a0fec1-bd04-4083-bf1f-1dfbbbb4fe62.png)
+![image](https://user-images.githubusercontent.com/62207008/189124442-958cd524-2d5a-4037-b89b-cddcbfb6990e.png)
+
 
 ## update theme
 ```bash
