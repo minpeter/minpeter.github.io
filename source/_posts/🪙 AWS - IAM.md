@@ -1,5 +1,5 @@
 ---
-title: "AWS - IAM"
+title: "🪙 AWS - IAM"
 description: "CLI, API 또는 codedoploy... AWS에서 뭔가를 해야할때 IAM가 자주 등장한다. 한번 간단하게 알아보자!!"
 date: 2022-05-09T00:50:58.192Z
 tags: []

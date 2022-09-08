@@ -1,5 +1,5 @@
 ---
-title: "AWS - AWS 클라우드 소개"
+title: "🪙 AWS - AWS 클라우드 소개"
 description: "data center, AZ, Region, Edge POP에 대해 알아보자"
 date: 2022-06-15T07:57:25.258Z
 tags: ["aws"]

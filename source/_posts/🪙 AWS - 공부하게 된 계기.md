@@ -1,5 +1,5 @@
 ---
-title: "AWS - 공부하게 된 계기"
+title: "🪙 AWS - 공부하게 된 계기"
 description: "한빛에서 NSB까지, AWS를 다시금 공부하게 된 계기에 대한 이야기"
 date: 2022-05-04T11:38:16.376Z
 tags: ["aws"]

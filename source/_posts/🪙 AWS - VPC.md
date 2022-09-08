@@ -1,5 +1,5 @@
 ---
-title: "AWS - VPC"
+title: "🪙 AWS - VPC"
 description: "Virtual Private Cloud에 대해 알아보자!!"
 date: 2022-06-16T03:03:07.156Z
 tags: ["Subnet","aws","vpc"]

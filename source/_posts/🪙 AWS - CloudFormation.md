@@ -1,5 +1,5 @@
 ---
-title: "AWS - CloudFormation"
+title: "🪙 AWS - CloudFormation"
 description: "AWS 인프라에 대해 코드로 선언하는 방법이다.미리 코드로 적어둔 AWS 인프라 자원을 생성하거나 삭제할 수 있다.비슷한 서비스로는 Terraform이 존재하고 이를 통틀어 IaC (Infrastructure as Code) 라고 부른다.생성할 인프라 자원을 코드로 정"
 date: 2022-06-15T23:50:15.412Z
 tags: ["aws","cloudformation"]

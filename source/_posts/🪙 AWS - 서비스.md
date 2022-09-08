@@ -1,5 +1,5 @@
 ---
-title: "AWS의 서비스"
+title: "🪙 AWS - 서비스"
 description: "AWS의 존재하는 175개가 넘는 완벽한 기능의 서비스들 중 대부분을 살펴보자"
 date: 2022-06-15T08:06:21.147Z
 tags: ["aws"]
