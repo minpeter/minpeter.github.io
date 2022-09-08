@@ -10,7 +10,7 @@ type: "about"
   "profile": {
     "name": "민웅기",
     "male": true,
-    "birth": "2005-06-11",
+    "birth": "2005 Q2",
     "website": "https://minpeter.github.io",
     "email": "kali2005611@gmail.com",
     "location": {

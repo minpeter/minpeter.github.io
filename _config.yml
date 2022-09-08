@@ -107,8 +107,7 @@ deploy:
   type: ''
 
 sitemap:
-  path: 
-    - sitemap.xml
+  path: sitemap.xml
   template: ./sitemap_template.xml
   rel: false
   tags: true
@@ -116,9 +115,8 @@ sitemap:
 
 robotstxt:
   useragent: "*"
-  disallow:
-    - /about
-  allow: ["*"]
+  allow:
+    - /
   sitemap: /sitemap.xml
 
 # Local Search 
@@ -128,3 +126,11 @@ search:
   field: post
   content: true
   format: html
+
+nofollow:
+    enable: true
+
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: false
