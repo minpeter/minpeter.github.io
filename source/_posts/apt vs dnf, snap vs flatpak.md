@@ -1,6 +1,5 @@
 ---
 title: "apt vs dnf, snap vs flatpak"
-description: "리눅스를 처음 접하면 기장 반가운건 다양한 것들중 단연 패키지관리자일 것이다.만약 windows에 winget 패키지 관리자가 나오기 전이나, 또는 아직까지도 winget에 대해 들어보자도 못한 개발자에게는 더욱 반가웠을 것이다.windows의 새로운 패키지 관리자인 "
 date: 2021-10-01 11:24:00 +0900
 tags: ["Node","linux"]
 ---

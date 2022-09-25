@@ -1,6 +1,5 @@
 ---
 title: "ibus qt5 한글 입력 오류"
-description: "위 사진에 보이는 '포맷(F)...'' 버튼이 잠시 동안 버그가 있었다.Sobi.Tips에 따르면 qt5 라이브러리 최신버전의 문제 라고 한다만자로 KDE : ibus 한글 모드에서 특정 키 오작동 증상 해결하기qtbase 5.13에서 fix할꺼라고 하지만 기다리기 싫"
 date: 2020-01-01
 tags: ["QT5","ibus","linux","한글입력기"]
 ---
