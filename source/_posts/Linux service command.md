@@ -1,7 +1,7 @@
 ---
 title: "Linux service command"
 description: "라즈베라파이 제로 세팅중 ssh 접속을 위해 nmap스캔을 하던 도중내 노트북에 22번 포트가 오픈돼 있다는 것을 발견했다.ssh 서버를 종료하면 간단하게 해결된다. 따라서sudo service ssh stopsudo systemctl status ssh (서버스 상태"
-date: 2022-03-07T02:42:34.662Z
+date: 2020-01-01
 tags: ["command","linux"]
 ---
 

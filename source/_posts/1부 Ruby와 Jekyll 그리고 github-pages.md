@@ -1,7 +1,7 @@
 ---
 title: "1부 Ruby와 Jekyll 그리고 github-pages"
 description: "github-pages.. 벌써 3~4번은 시도했었지만 jekyll를 이용해서 시도한건 전부 실패했었다.마음에 드는 테마는 설정이 어렵거나 프로그래밍를 접한지 얼마되지 않아  jekyll이라 것이 어떻게 작동하는지도 파악이 안됬다.그래서 notion이나 아이패드 일기앱"
-date: 2022-03-07T01:40:03.043Z
+date: 2021-08-22 22:21:00 +0900
 tags: ["github","github pages","jekyll","ruby"]
 categories: "blog"
 ---

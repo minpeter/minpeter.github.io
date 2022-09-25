@@ -1,7 +1,7 @@
 ---
 title: "onedrive와 pihole (TIL)"
 description: "별것도 아닌걸로 2일을 날렸다.windows 11 DEV 채널이 BETA 채널과 완전히 분리되어 다른 빌드번호를 가지게 되었다.뭔 뜻이냐면 이제 더 이상 DEV에서 BETA로 넘어갈 수 없다는 뜻이고, 더이상 DEV에서는 실사용으로 사용하기 어려울꺼라는 뜻이다.또 마침"
-date: 2022-03-07T02:57:43.652Z
+date: 2021-09-12 17:25:00 +0900
 tags: ["DNS","TIL","homelab","onedirve","pihole","server"]
 ---
 

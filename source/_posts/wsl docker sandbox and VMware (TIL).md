@@ -1,7 +1,7 @@
 ---
 title: "wsl docker sandbox and VMware (TIL)"
 description: "windows hypervisor 위에서 돌아가는 WSL, docker, vmware의 합의점 구경"
-date: 2022-03-07T02:58:13.241Z
+date: 2021-10-18 14:25:00 +0900
 tags: ["TIL","VMware","Virtualization"]
 ---
 

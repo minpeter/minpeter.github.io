@@ -1,7 +1,7 @@
 ---
 title: "logo-ls, bat"
 description: "내가 터미널에서 가장 많이 사용하는 명령어 중에 ls와 cat을 예쁘게 꾸며주는 방법 가이드"
-date: 2022-03-07T01:26:06.188Z
+date: 2021-12-20 13:28:00 +0900
 tags: ["bat","linux","logo-ls","terminal"]
 ---
 

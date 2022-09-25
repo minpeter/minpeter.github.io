@@ -1,7 +1,7 @@
 ---
 title: "docker stack visualizer"
 description: "visualizer는 2016 dockercon에서 stack기능 소개를 위해 만들어진 툴이다.이를 이용하면 swarm모드에서 노드와 컨테이너의 분포상태를 시각적으로 볼수 있다.  visualizer.yaml컨테이너를 이용해 실습하고 있다면 docker cp명령어로 파"
-date: 2022-03-07T02:51:01.607Z
+date: 2021-09-13 12:05:00 +0900
 tags: ["docker","server","swarm","visualizer"]
 ---
 ## 개요

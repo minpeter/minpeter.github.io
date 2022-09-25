@@ -1,7 +1,7 @@
 ---
 title: "Swarm의 compose stack"
 description: "전에서 run명령어와 비슷한 service 명령어를 이용해 swarm에 컨테이너를 띄우고 스케일을 조정해보았다.이번엔 compose명령어와 비슷한 stack에 대해 알아보자.스택이란 하나 이상의 서비스를 그룹으로 묶은 단위로, 애플리케이션 저체 구성을 정의한다.그냥 간"
-date: 2022-03-07T02:50:11.702Z
+date: 2021-09-12 21:05:00 +0900
 tags: ["docker","docker-swarn","server"]
 ---
 

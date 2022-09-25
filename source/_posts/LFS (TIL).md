@@ -1,7 +1,7 @@
 ---
 title: "LFS (TIL)"
 description: "오늘부터 시간이 날때마다 커널에 대해 조금씩 공부하기로 마음먹었다!원도우에서 wsl2, sandbox, hyper-V 같은 가상화를 이용하는 기술에 대해 공부하던 중,hyper-v에 type1과 type2에 대해 알게되었고, 이로 인해 전에 wsl2와 VMware을 같"
-date: 2022-03-07T02:55:45.377Z
+date: 2021-08-29 12:59:59 +0900
 tags: ["LFS","TIL","linux"]
 ---
 

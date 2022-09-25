@@ -1,7 +1,7 @@
 ---
 title: "2부 Ruby와 Jekyll 그리고 github-pages"
 description: "자ㅏ자... 이제 github-pages 설정하는 방법를 알아보도록 하자.일단 github-pages를 사용하는 방법은 생각보다 많은데 그 중 한가지 방법을 소개하는 것이니 감안하고 보는 것이 좋을 것 같다.루비를 설치하는 방법은 여러가지가 있다.나는 루비를 사용하지도"
-date: 2022-03-07T01:41:42.159Z
+date: 2021-08-23 15:51:38 +0900
 tags: ["github","github pages","jekyll","ruby"]
 categories: "blog"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "블로그 Jekyll에서 hugo로"
 description: "image예전에 github pages 블로그를 처음 구축했을 당시에 Jekyll를 이용해 구축했다.그리고 마지막에 추가로 했던 말이 있다.image내가 고른 Jekyll 테마의 호환성 문제로 인해 actions를 이용해 빌드를 수행했다.하지만 github pages에"
-date: 2022-03-07T01:44:07.888Z
+date: 2022-01-09 18:53:00 +0900
 tags: ["blog","github","github pages","go","hugo"]
 categories: "blog"
 ---

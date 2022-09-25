@@ -1,7 +1,7 @@
 ---
 title: "Docker swarm Orchestration"
 description: "해당 포스트는 도커안에 도커 (dind)기능을 이용해 로컬에서 클러스터와 유사한 환경을 구성하고,docker swarm을 이용해 클러스터를 제어하는 Orchestration을 실습하는 방법에 대한 포스팅이다.  docker swarm은 kubernetes와 같은 Orc"
-date: 2022-03-07T02:49:40.773Z
+date: 2021-09-09 11:12:00 +0900
 tags: ["docker","docker swarm","server"]
 ---
 
