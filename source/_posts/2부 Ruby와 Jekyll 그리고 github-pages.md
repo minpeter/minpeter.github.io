@@ -27,7 +27,7 @@ $ \curl -sSL https://get.rvm.io | bash
 
 한 뒤에 터미널을 한번 재시작해주면 rvm명령어가 작동할 것이다.
 
-킹치만.. 여기시 한가지 작은 문제가 발생하는데 zsh을 이용할경우 [zsh 설치과정](https://rvm.io/integration/zsh)를 통해 설정을 해야되는데 이게 어려울 뿐만 아니라 거희 모든 zsh 유저가 사용하는 oh-my-zsh를 이용할 경우 공식페이지에서 직접 rvm를 안쓰는걸 추천한다고 하니..
+킹치만.. 여기시 한가지 작은 문제가 발생하는데 zsh을 이용할경우 [zsh 설치과정](https://rvm.io/integration/zsh)를 통해 설정을 해야되는데 이게 어려울 뿐만 아니라 거의 모든 zsh 유저가 사용하는 oh-my-zsh를 이용할 경우 공식페이지에서 직접 rvm를 안쓰는걸 추천한다고 하니..
 
 zsh + oh-my-zsh 조합을 사용하는 나로써는 최악이였다.
 
