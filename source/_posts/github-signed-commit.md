@@ -52,7 +52,7 @@ GPG를 이용해 생성된 키를 Github에 공유하고 해당 키를 이용해
 
 GPG 키를 만드는데는 Windows - Gpg4win, macOS - Mac GPG, Linux - GnuPG 를 사용한다.  
 
-macOS는 `brew install gpg` 데비안 계열은 기본 설치지만 없는 경우 `apt install gnupg` 다른 배포판은 알아서 잘.. 해주겠죠?  
+macOS는 `brew install gnupg` 데비안 계열은 기본 설치지만 없는 경우 `apt install gnupg` 다른 배포판은 알아서 잘.. 해주겠죠?  
 
 다음 명령어로 GPG 키를 생성한다.  
 
@@ -113,6 +113,15 @@ signed commit를 할 노트북에서 아래 명령어를 이용해 key를 등록
 ```
 git config --global user.signingkey 2167399770AVC2F3
 ```
+리눅스의 경우 다음 명령어를 실행해주자.
+### zsh
+```
+[ -f ~/.zshrc ] && echo '\n## GIT gpg configure\n\nGPG_TTY=$(tty)' >> ~/.zshrc
+```
+### bash
+```
+[ -f ~/.bashrc ] && echo '\n## GIT gpg configure\n\nexport GPG_TTY=$(tty)' >> ~/.bashrc
+```
 이제 모든 설정이 끝났고 단지 `git commit` 명령어를 수행할 때 `-S` 옵션을 붙혀주면 된다.
 
 만약 모든 커밋에 서명하길 원한다면 아래 명령어로 활성화 시킬 수 있다.  
@@ -120,7 +129,12 @@ git config --global user.signingkey 2167399770AVC2F3
 git config --global commit.gpgsign true
 ```
 
+
 이제 커밋을 해보면 커밋에 Verified 태그가 생긴 걸 확인할 수 있다. 
 ![](/images/Screenshot%202022-09-29%20191559.png)
 
-축하한다!! 🎉
+## 참고
+- [generating-a-new-gpg-key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
+- [adding-a-new-gpg-key-to-your-github-account](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-gpg-key-to-your-github-account)
+- [telling-git-about-your-signing-key](https://docs.github.com/en/github/authenticating-to-github/telling-git-about-your-signing-key)
+- [signing-commits](https://docs.github.com/en/github/authenticating-to-github/signing-commits)
