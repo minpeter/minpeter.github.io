@@ -272,5 +272,5 @@ ingress, configmap, secret, volume, deployment, statefulset 등을 알아보고�
 또한 가능하다면 jenkins를 이용한 CI/CD를 구축해보고자 한다.
 
 ## 참고자료
-- [](https://youtu.be/U1VzcjCB_sY)
-- [](https://www.learnlinux.tv/how-to-build-an-awesome-kubernetes-cluster-using-proxmox-virtual-environment/)
+- [youtube/How to Build an Awesome Kubernetes Cluster using Proxmox Virtual Environment](https://youtu.be/U1VzcjCB_sY)
+- [blog/How to Build an Awesome Kubernetes Cluster using Proxmox Virtual Environment](https://www.learnlinux.tv/how-to-build-an-awesome-kubernetes-cluster-using-proxmox-virtual-environment/)

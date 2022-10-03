@@ -114,4 +114,5 @@ Clone 클릭 이후 전원을 켜고 기다리면 끝이다.
 지금 만든 template을 이용해 k8s-ctrlr와 k8s-node를 만들고, k8s-node 탬플릿을 추가로 생성, 총 k8s-ctrlr + 2개의 k8s-node를 만들고 설정해보자.
 
 ## 참고자료
-- [](https://youtu.be/MJgIm03Jxdo)
+- [youtube/Proxmox VE - How to build an Ubuntu 22.04 Template (Updated Method)](https://youtu.be/MJgIm03Jxdo)
+- [blog/Proxmox VE - How to build an Ubuntu 22.04 Template (Updated Method)](https://www.learnlinux.tv/proxmox-ve-how-to-build-an-ubuntu-22-04-template-updated-method/)
