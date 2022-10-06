@@ -6,6 +6,7 @@ tags: [kubernetes, jenkins, openebs]
 
 ## 이 글의 존재 이유
 사기 당했다.
+~~나중에 보니 사기까진 아니고 특정 경우에는 유용하게 사용할 수 있다는... 아 몰라 사기야~~
 `kubernetes에 jenkins를 설치`를 주제로 다루는 블로그들을 봤고, 따라해봤다.
 근데 정작 전부 구성하고 나니
 
@@ -50,7 +51,7 @@ openEBS는 다양한 설치 방법을 제공하지만 이번에는 helm를 이�
 ```bash
 helm repo add openebs https://openebs.github.io/charts
 helm repo update
-helm install --namespace openebs --name openebs openebs/openebs
+helm install -n openebs openebs openebs/openebs
 ```
 이걸로 간단하게 설치가 끝난다.
 다음 명령어로 설치가 잘 되었는지 확인해보자.
@@ -122,6 +123,7 @@ kubectl get pod -n ns-jenkins
 이후에는 openEBS에 대한 내용을 정리하고 PV, PVC에 대한 포스트도 준비해보아야겠다.  
 배포 서버를 구성하려던 원래 계획은 약간 틀어졌지만 알게된게 더 많으니 만족해야겠다.  
 물론 배포 서버 구축해서 배포하는건 docker를 이용해 jenkins 서버를 구축하고 jenkins를 이용해 배포하는 방식으로 진행할 예정이다.
+
 
 ## ns-jenkins의 모든 리소스 해제
 
