@@ -49,6 +49,7 @@ openEBS는 다양한 설치 방법을 제공하지만 이번에는 helm를 이�
 
 
 ```bash
+kubectl create ns openebs
 helm repo add openebs https://openebs.github.io/charts
 helm repo update
 helm install -n openebs openebs openebs/openebs
