@@ -54,7 +54,7 @@ vscode에서 ****[Remote - WSL](https://marketplace.visualstudio.com/items?itemN
 sudo apt-get install git
 git config --global user.name "Your Name"
 git config --global user.email "youremail@domain.com"
-git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager-core.exe"
+git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe"
 ```
 
 [windows의 crlf와 wsl의 lf의 충돌로 인한 문제 해결](https://code.visualstudio.com/docs/remote/troubleshooting#_resolving-git-line-ending-issues-in-containers-resulting-in-many-modified-files)
