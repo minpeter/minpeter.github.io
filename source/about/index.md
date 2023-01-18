@@ -9,22 +9,18 @@ type: "about"
 {
   "profile": {
     "name": "민웅기",
-    "male": true,
     "birth": "2005 Q2",
     "website": "https://minpeter.github.io",
     "email": "kali2005611@gmail.com",
-    "location": {
-      "countryCode": "KR",
-      "city": "경기도 김포시"
-    },
+    "country": "KR",
   },
   "skills": {
-    "backend": ["Docker", "Linux", "Golang", "Python"],
+    "backend": ["Go", "Linux", "Docker", "Python"],
   },
   "education": {
     "highschool": "한세사이버보안고등학교",
     "department": "해킹보안과",
-    "state": "2학년"
+    "state": "3학년"
   },
   "works": {
     "company": NULL,
