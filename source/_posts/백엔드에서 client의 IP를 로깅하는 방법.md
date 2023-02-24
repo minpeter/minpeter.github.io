@@ -1,6 +1,6 @@
 ---
 title: 백엔드에서 client의 IP를 로깅하는 방법
-date: 2023-2-25 3:3:18 +0900
+date: 2023-02-25 03:03:18 +0900
 tags: ["http", " backend", " reverse proxy"]
 categories: ""
 ---
