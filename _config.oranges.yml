@@ -16,26 +16,27 @@ comments:
   enable: false
 
 navbar:
-  - name: Home
+  - 
+    name: Home
     enable: true
     path: /
     key: home
-  - name: Archives
+  - 
+    name: Archives
     enable: true
     path: /archives/
     key: archives
-  - name: Categories
+  - 
+    name: Categories
     enable: true
     path: /categories/
     key: categories
-  - name: Tags
+  - 
+    name: Tags
     enable: false
-    path: /tags/
-    key: tags
-  - name: Friends
+  - 
+    name: Friends
     enable: false
-    path: /friends/
-    key: friends
 
 catalog:
   enable: true
@@ -46,13 +47,18 @@ prevnext:
 
 footer:
   social:
-    - name: github
+    - 
+      name: github
       icon: github
       path: https://github.com/minpeter
+    -
+      name: rss
+      icon: rss
+      path: /rss2.xml
 
   more:
-    - name: Copyright © {thisYear} Oranges
-      path: https://github.com/zchengsite/hexo-theme-oranges
+    - name: Copyright © {thisYear} minpeter
+      path: https://github.com/minpeter/minpeter.github.io
 
 # 검색기능
 search:

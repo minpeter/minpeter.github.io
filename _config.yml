@@ -13,12 +13,12 @@ timezone: Asia/Seoul
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://minpeter.github.io/
-permalink: :category/:title/
+url: https://minpeter.github.io
+permalink: :category/:title.html
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -47,14 +47,9 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace:
   wrap: true
   hljs: false
-prismjs:
-  enable: false
-  preprocess: true
-  line_number: true
-  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -62,7 +57,6 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 15
   order_by: -date
 
 # Category & Tag
@@ -85,7 +79,7 @@ updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 15
+per_page: 12
 pagination_dir: page
 
 # Include / Exclude file(s)
@@ -100,11 +94,6 @@ ignore:
 theme: oranges
 plugins:
 - hexo-generator-robotstxt
-
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
 
 sitemap:
   path: sitemap.xml
@@ -125,7 +114,6 @@ search:
   path: search.xml
   field: post
   content: true
-  format: html
 
 nofollow:
     enable: true
