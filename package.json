@@ -1,7 +1,7 @@
 {
-  "name": "hexo-site",
+  "name": "blog",
   "version": "0.0.0",
-  "private": true,
+  "description": "minpeter's blog",
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
