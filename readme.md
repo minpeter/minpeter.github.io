@@ -1,13 +1,16 @@
-# minpeter DEV blog
-![image](https://user-images.githubusercontent.com/62207008/189124442-958cd524-2d5a-4037-b89b-cddcbfb6990e.png)
+# minpeter dev blog
+![image](https://user-images.githubusercontent.com/62207008/221241102-7275b11c-8bab-440b-99d5-fc9596b33825.png)
 
+
+## local live server
+```bash
+git clone https://github.com/minpeter/minpeter.github.io
+git submodule update --init --recursive
+npm i
+npm run server
+```
 
 ## update theme
 ```bash
 git submodule update --remote --merge
-```
-
-## reclone repo
-```bash
-git submodule update --init --recursive
 ```
