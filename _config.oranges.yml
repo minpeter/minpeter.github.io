@@ -22,15 +22,23 @@ navbar:
     path: /
     key: home
   - 
-    name: Archives
-    enable: true
-    path: /archives/
-    key: archives
-  - 
     name: Categories
     enable: true
     path: /categories/
     key: categories
+  -
+    name: More
+    enable: true
+    path: /more/
+    key: more
+  -
+    name: About
+    enable: true
+    path: /about/
+    key: about
+  - 
+    name: Archives
+    enable: false
   - 
     name: Tags
     enable: false
