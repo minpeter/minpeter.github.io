@@ -99,8 +99,8 @@ sitemap:
   path: sitemap.xml
   template: ./sitemap_template.xml
   rel: false
-  tags: true
-  categories: true
+  tags: false
+  categories: false
 
 robotstxt:
   useragent: "*"
