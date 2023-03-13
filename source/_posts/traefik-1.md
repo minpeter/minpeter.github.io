@@ -5,7 +5,7 @@ tags: ["traefik", " homelab", " server"]
 categories: "home lab"
 ---
 
-글을 시작하기 앞서 [https://doc.traefik.io/traefik/](https://doc.traefik.io/traefik/) 의 내용 중 일부를 재구성했음을 알림미다.
+글을 시작하기에 앞서 [https://doc.traefik.io/traefik/](https://doc.traefik.io/traefik/) 의 내용 중 일부를 재구성했음을 알립니다.
 
 2023년 3월 기준 v3.9.8이 최신버전이고 이를 기준으로 작성하였다.
 
@@ -13,19 +13,19 @@ categories: "home lab"
 
 본인의 인프라에 서비스 게시를 편하게 해주는 Edge Router이다.
 
-Edge Router는 외부네트워크와 내부네트워크를 연결할 수 있도록 그 경계에 존재하는 특수한 라우터이다.
+Edge Router는 외부 네트워크와 내부 네트워크를 연결할 수 있도록 그 경계에 존재하는 특수한 라우터이다.
 
-들어오는 모든 트래픽을 우선 받은 후 규칙에 따라 적절한 서비스로 연결해주는 역활을 담당한다.
+들어오는 모든 트래픽을 우선 받은 후 규칙에 따라 적절한 서비스로 연결해주는 역할을 담당한다.
 
 ## 글에서 다루는 범위
 
-traefik proxy는 생각보다 훨씬 다양한 기능을 가지고 있다.
+traefik proxy는 생각보다 훨씬 다양한 기능이 있다.
 
 서비스를 연결하기 위해 [사용하는 수단과 방법 또한 다양하게 제공](https://doc.traefik.io/traefik/providers/overview/)한다.
 
 HTTP는 물론이고 4계층인 TCP와 UDP도 지원한다.
 
-하지만 이 글에서는 도커 및 파일 방식을 이용해 배포되는 HTTP 및 HTTPS 서비스 연결에 대한 일부를 이야기 해보려한다.
+하지만 이 글에서는 도커 및 파일 방식을 이용해 배포되는 HTTP 및 HTTPS 서비스 연결에 대한 일부를 이야기 해보려 한다.
 
 ## 개념
 
@@ -35,15 +35,15 @@ HTTP는 물론이고 4계층인 TCP와 UDP도 지원한다.
 
 이때 서비스는 파일 또는 도커를 이용한 자동 감지 외 다양한 방법을 이용할 수 있고 이를 [providers](https://doc.traefik.io/traefik/providers/overview/)라고 부른다.
 
-또 그저 규칙에 따라 서비스에 라우팅 하는 것이 아닌 미들웨어를 통해 접근 제어나 요청을 서비스에 전달하기 전에 요청을 업데이트 할 수 있다.
+또 그저 규칙에 따라 서비스에 라우팅하는 것이 아닌 미들웨어를 통해 접근 제어나 요청을 서비스에 전달하기 전에 요청을 업데이트할 수 있다.
 
-## 로컬에서 동작 이해
+## 로컬에서 동작 이해오
 
 글의 마지막에서는 실제 서버에 (\*라즈베리파이) 클라우드플레어를 연결하여 설정하게 될 것이다.
 
-하지만 서버에 올리기 앞서 지금 이 글을 보고 있는 노트북에서 간단한 실험을 통해 traefik의 동작 방식을 설명해보려 한다.
+하지만 서버에 올리기에 앞서 지금 이 글을 보고 있는 노트북에서 간단한 실험을 통해 traefik의 동작 방식을 설명해보려 한다.
 
-노트북에 도커가 설치돼 있다는 전재하에 설명을 진행하도록 하겠다.
+노트북에 도커가 설치돼 있다는 전제하에 설명을 진행하도록 하겠다.
 
 우선 traefik-test 폴더를 만들어 해당 폴더 아래에 docker-compose.yaml 파일을 생성해주자.
 
@@ -442,7 +442,7 @@ volumes:
 
 다음으로 file를 이용하는 방식은 다음과 같다.
 
-먼저 같은 서버에서 서비스가 돌아가는 경우와 같은 네트워크의 다른서버에서 돌아가는 경우로 나뉘는데 후자의 경우엔 그냥 약간 응용하면 해결할 수 있다.
+먼저 같은 서버에서 서비스가 돌아가는 경우와 같은 네트워크의 다른 서버에서 돌아가는 경우로 나뉘는데 후자의 경우엔 그냥 약간 응용하면 해결할 수 있다.
 
 docker에서 host의 localhost에 접근하기 위해서 traefik/docker-compose.yaml에 다음 내용을 추가한다.
 
@@ -454,7 +454,7 @@ traefik:
 	  - host.docker.internal:host-gateway
 ```
 
-이렇게 하면 traefik 컨테이너 내부에서 host.docker.internal을 이용하여 호스트의 localhost에 접근 할 수 있다.
+이렇게 하면 traefik 컨테이너 내부에서 host.docker.internal을 이용하여 호스트의 localhost에 접근할 수 있다.
 
 이후 앞에서 생성해두었던 external_services 폴더에 서비스를 정의하는 파일을 작성해준다.
 
@@ -476,7 +476,7 @@ traefik가 올라간 서버의 localhost의 10000 포트에 서비스가 올라�
 
 이제 기본적인 설정은 완료되었다.
 
-traefik 서비스에 아래 2개 라벨를 추가하고 volume에도 한줄을 추가해주자.
+traefik 서비스에 아래 2개 라벨을 추가하고 volume에도 한줄을 추가해주자.
 
 ```bash
 # labels
@@ -487,7 +487,7 @@ traefik 서비스에 아래 2개 라벨를 추가하고 volume에도 한줄을 �
 - ./usersfile:/usersfile
 ```
 
-그리고 다음 명령어로 usersfile를 생성해주자.
+그런 다음 아래 명령어으로 usersfile를 생성해주자.
 
 ```yaml
 echo "<username>:<htpassword>" >> traefik/usersfile
@@ -497,6 +497,6 @@ echo "<username>:<htpassword>" >> traefik/usersfile
 
 그럼 접근할때 traefik가 인증 과정을 거치고 인증에 성공하면 서비스로 연결시켜준다.
 
-와 샌즈 쓰다보니까 글 쓰기 싫어서 대충쓰고 있네
+작성하다 보니 글 쓰기 싫어서 대충 쓰고 있네...
 
 이제 그만쓸래
