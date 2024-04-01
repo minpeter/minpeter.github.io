@@ -1,6 +1,6 @@
 # minpeter dev blog
 
-![image](https://user-images.githubusercontent.com/62207008/221241102-7275b11c-8bab-440b-99d5-fc9596b33825.png)
+<img width="842" alt="image" src="https://github.com/minpeter/minpeter.github.io/assets/62207008/505550e4-d7f6-42d0-b36d-c95bbf192710">
 
 ## local live server
 
