@@ -3,6 +3,7 @@ title: "WSL Arch distro 설정"
 description: "pacman, yay... arch 최고!!"
 date: 2023-02-24
 tags: ["arch", "linux", "terminal", "wsl"]
+canonical_url: "https://minpeter.xyz/blog/wsl-arch-distro-setting"
 ---
 
 ![Untitled](/images/wslarch/Untitled.png)

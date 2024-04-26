@@ -3,6 +3,7 @@ title: 총정리 - traefik proxy
 date: 2023-3-12 22:12:8 +0900
 tags: ["traefik", " homelab", " server"]
 categories: "home lab"
+canonical_url: "https://minpeter.xyz/blog/traefik-proxy-setting"
 ---
 
 글을 시작하기에 앞서 [https://doc.traefik.io/traefik/](https://doc.traefik.io/traefik/) 의 내용 중 일부를 재구성했음을 알립니다.
